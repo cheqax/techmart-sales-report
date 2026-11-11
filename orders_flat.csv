@@ -1,0 +1,978 @@
+order_item_id,order_id,order_date,order_month,order_status,customer_id,customer_first_name,customer_last_name,customer_city,customer_state,customer_signup_date,employee_id,employee_first_name,employee_last_name,employee_department,employee_title,product_id,product_name,category,quantity,unit_price,line_revenue
+1,1,2023-01-13,2023-01,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,1,1542.73,1542.73
+2,2,2023-01-21,2023-01,Delivered,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5183.79,5183.79
+3,2,2023-01-21,2023-01,Delivered,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,7183.27,7183.27
+4,3,2023-01-22,2023-01,Pending,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1349.64,1349.64
+5,3,2023-01-22,2023-01,Pending,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,1,3567.85,3567.85
+6,4,2023-01-22,2023-01,Delivered,12,Sarita,Iyer,Jaipur,Rajasthan,2023-01-14,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1483.14,2966.28
+7,4,2023-01-22,2023-01,Delivered,12,Sarita,Iyer,Jaipur,Rajasthan,2023-01-14,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,65646.18,65646.18
+8,4,2023-01-22,2023-01,Delivered,12,Sarita,Iyer,Jaipur,Rajasthan,2023-01-14,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,512.32,1024.64
+9,5,2023-02-08,2023-02,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,912.73,912.73
+10,6,2023-02-10,2023-02,Delivered,4,Suresh,Kumar,Delhi,Delhi,2023-01-08,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1332.84,2665.68
+11,6,2023-02-10,2023-02,Delivered,4,Suresh,Kumar,Delhi,Delhi,2023-01-08,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5090.36,5090.36
+12,7,2023-02-18,2023-02,Delivered,5,Divya,Chatterjee,Nagpur,Maharashtra,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1478.46,2956.92
+13,8,2023-02-18,2023-02,Delivered,11,Sarita,Saxena,Bengaluru,Karnataka,2023-01-13,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8607.28,8607.28
+14,8,2023-02-18,2023-02,Delivered,11,Sarita,Saxena,Bengaluru,Karnataka,2023-01-13,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8966.29,8966.29
+15,9,2023-02-19,2023-02,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1613.72,1613.72
+16,9,2023-02-19,2023-02,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1552.44,1552.44
+17,9,2023-02-19,2023-02,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5179.04,5179.04
+18,10,2023-02-20,2023-02,Delivered,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1293.46,1293.46
+19,11,2023-02-24,2023-02,Cancelled,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5081.29,5081.29
+20,11,2023-02-24,2023-02,Cancelled,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,915.08,915.08
+21,11,2023-02-24,2023-02,Cancelled,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1313.24,1313.24
+22,12,2023-02-26,2023-02,Pending,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,3,1885.9,5657.7
+23,12,2023-02-26,2023-02,Pending,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,934.54,934.54
+24,12,2023-02-26,2023-02,Pending,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1345.02,1345.02
+25,12,2023-02-26,2023-02,Pending,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,498.41,498.41
+26,13,2023-03-05,2023-03,Pending,27,Richa,Saxena,Kolkata,West Bengal,2023-02-14,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1870.3,1870.3
+27,14,2023-03-05,2023-03,Delivered,25,Bhavna,Rao,Bengaluru,Karnataka,2023-02-11,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1347.3,2694.6
+28,15,2023-04-03,2023-04,Delivered,5,Divya,Chatterjee,Nagpur,Maharashtra,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,787.18,787.18
+29,15,2023-04-03,2023-04,Delivered,5,Divya,Chatterjee,Nagpur,Maharashtra,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6330.68,12661.36
+30,16,2023-04-11,2023-04,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,876.75,876.75
+31,17,2023-04-11,2023-04,Delivered,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6708.2,6708.2
+32,18,2023-04-14,2023-04,Delivered,2,Vivek,Gupta,Chandigarh,Chandigarh,2023-01-04,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8802.14,8802.14
+33,19,2023-04-15,2023-04,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,508.49,508.49
+34,19,2023-04-15,2023-04,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,494.55,494.55
+35,19,2023-04-15,2023-04,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,784.98,784.98
+36,20,2023-04-15,2023-04,Delivered,38,Vinay,Chopra,Jaipur,Rajasthan,2023-03-09,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,2,66996.1,133992.2
+37,21,2023-04-17,2023-04,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,877.55,877.55
+38,21,2023-04-17,2023-04,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1618.72,3237.44
+39,22,2023-04-18,2023-04,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,872.48,872.48
+40,23,2023-04-20,2023-04,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8691.02,8691.02
+41,24,2023-04-22,2023-04,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,776.26,776.26
+42,24,2023-04-22,2023-04,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,67876.43,135752.86
+43,25,2023-05-04,2023-05,Delivered,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,907.46,907.46
+44,26,2023-05-04,2023-05,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1637.23,3274.46
+45,26,2023-05-04,2023-05,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,825.16,825.16
+46,27,2023-05-05,2023-05,Delivered,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8882.6,8882.6
+47,28,2023-05-05,2023-05,Cancelled,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1634.49,1634.49
+48,29,2023-05-10,2023-05,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25071.75,25071.75
+49,29,2023-05-10,2023-05,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1645.22,1645.22
+50,29,2023-05-10,2023-05,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,2,47286.46,94572.92
+51,29,2023-05-10,2023-05,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,817.99,817.99
+52,30,2023-05-11,2023-05,Delivered,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,44835.81,44835.81
+53,30,2023-05-11,2023-05,Delivered,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,814.78,814.78
+54,31,2023-05-20,2023-05,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,1,1605.99,1605.99
+55,31,2023-05-20,2023-05,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,1,1282.57,1282.57
+56,32,2023-05-20,2023-05,Cancelled,24,Sunil,Chopra,Surat,Gujarat,2023-02-11,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,875.4,875.4
+57,33,2023-05-21,2023-05,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,797.13,797.13
+58,34,2023-05-21,2023-05,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1304.39,1304.39
+59,34,2023-05-21,2023-05,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1279.46,1279.46
+60,35,2023-05-21,2023-05,Pending,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,47556.46,47556.46
+61,36,2023-05-24,2023-05,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8907.12,17814.24
+62,36,2023-05-24,2023-05,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,3,8780.85,26342.55
+63,36,2023-05-24,2023-05,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6855.1,6855.1
+64,37,2023-05-27,2023-05,Delivered,66,Deepak,Pillay,Chennai,Tamil Nadu,2023-05-27,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,927.37,927.37
+65,38,2023-06-03,2023-06,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,3,911.37,2734.11
+66,39,2023-06-11,2023-06,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,806.72,806.72
+67,39,2023-06-11,2023-06,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,518.76,518.76
+68,40,2023-06-12,2023-06,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,921.83,921.83
+69,40,2023-06-12,2023-06,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,2,Vikram,Shah,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24751.05,24751.05
+70,41,2023-06-15,2023-06,Delivered,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7130.1,7130.1
+71,41,2023-06-15,2023-06,Delivered,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,102560.26,102560.26
+72,42,2023-06-15,2023-06,Delivered,64,Rajesh,Kapoor,Chennai,Tamil Nadu,2023-05-24,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,3,5014.49,15043.47
+73,43,2023-06-21,2023-06,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6993.22,6993.22
+74,43,2023-06-21,2023-06,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,66547.44,66547.44
+75,44,2023-06-22,2023-06,Pending,57,Anju,Chopra,Delhi,Delhi,2023-05-02,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,934.78,934.78
+76,45,2023-06-23,2023-06,Shipped,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8898.66,17797.32
+77,45,2023-06-23,2023-06,Shipped,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,4,Rohan,Mehta,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12975.93,12975.93
+78,46,2023-06-25,2023-06,Shipped,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1344.45,1344.45
+79,46,2023-06-25,2023-06,Shipped,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1850.54,1850.54
+80,46,2023-06-25,2023-06,Shipped,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,920.48,1840.96
+81,47,2023-06-26,2023-06,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,1,64707.13,64707.13
+82,47,2023-06-26,2023-06,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,2,64664.81,129329.62
+83,47,2023-06-26,2023-06,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,11,Webcam HD,Accessory,3,1487.45,4462.35
+84,47,2023-06-26,2023-06,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,13,Gaming Laptop 16,Laptop,1,100301.34,100301.34
+85,48,2023-06-27,2023-06,Delivered,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,2,4983.77,9967.54
+86,49,2023-06-27,2023-06,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,781.59,781.59
+87,49,2023-06-27,2023-06,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,509.32,1018.64
+88,50,2023-07-01,2023-07,Delivered,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1625.36,3250.72
+89,50,2023-07-01,2023-07,Delivered,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,2,44761.23,89522.46
+90,51,2023-07-01,2023-07,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,47640.73,142922.19
+91,52,2023-07-02,2023-07,Delivered,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,1,933.36,933.36
+92,52,2023-07-02,2023-07,Delivered,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,8,Noise Cancelling Headphones,Audio,1,4882.48,4882.48
+93,52,2023-07-02,2023-07,Delivered,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,11,Webcam HD,Accessory,1,1540.07,1540.07
+94,53,2023-07-04,2023-07,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,511.67,511.67
+95,53,2023-07-04,2023-07,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1613.39,3226.78
+96,53,2023-07-04,2023-07,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,496.47,496.47
+97,53,2023-07-04,2023-07,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,494.92,494.92
+98,54,2023-07-06,2023-07,Delivered,25,Bhavna,Rao,Bengaluru,Karnataka,2023-02-11,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,893.26,893.26
+99,54,2023-07-06,2023-07,Delivered,25,Bhavna,Rao,Bengaluru,Karnataka,2023-02-11,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,2,918.47,1836.94
+100,54,2023-07-06,2023-07,Delivered,25,Bhavna,Rao,Bengaluru,Karnataka,2023-02-11,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45008.49,45008.49
+101,55,2023-07-08,2023-07,Shipped,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6594.79,6594.79
+102,55,2023-07-08,2023-07,Shipped,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,1,3460.68,3460.68
+103,55,2023-07-08,2023-07,Shipped,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,491.56,491.56
+104,56,2023-07-10,2023-07,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,933.57,933.57
+105,56,2023-07-10,2023-07,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,889.3,889.3
+106,56,2023-07-10,2023-07,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1627.79,1627.79
+107,57,2023-07-10,2023-07,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,2,7175.62,14351.24
+108,57,2023-07-10,2023-07,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1350.63,1350.63
+109,57,2023-07-10,2023-07,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6985.4,6985.4
+110,58,2023-07-10,2023-07,Delivered,68,Raghav,Chatterjee,Mumbai,Maharashtra,2023-06-09,1,Ananya,Rao,Management,Sales Manager,11,Webcam HD,Accessory,2,1520.91,3041.82
+111,58,2023-07-10,2023-07,Delivered,68,Raghav,Chatterjee,Mumbai,Maharashtra,2023-06-09,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,3,66013.85,198041.55
+112,59,2023-07-11,2023-07,Cancelled,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,902.55,1805.1
+113,59,2023-07-11,2023-07,Cancelled,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,516.32,516.32
+114,60,2023-07-11,2023-07,Delivered,7,Sandeep,Mehta,Chennai,Tamil Nadu,2023-01-10,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,2,928.94,1857.88
+115,61,2023-07-12,2023-07,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6415.08,6415.08
+116,61,2023-07-12,2023-07,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,900.1,900.1
+117,62,2023-07-13,2023-07,Pending,57,Anju,Chopra,Delhi,Delhi,2023-05-02,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8742.53,8742.53
+118,62,2023-07-13,2023-07,Pending,57,Anju,Chopra,Delhi,Delhi,2023-05-02,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,3,64555.26,193665.78
+119,63,2023-07-14,2023-07,Pending,63,Rekha,Mukherjee,Ahmedabad,Gujarat,2023-05-18,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,3,823.85,2471.55
+120,64,2023-07-20,2023-07,Pending,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,3,1508.91,4526.73
+121,64,2023-07-20,2023-07,Pending,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1529.66,3059.32
+122,64,2023-07-20,2023-07,Pending,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,489.43,489.43
+123,65,2023-07-20,2023-07,Cancelled,76,Harish,Singh,Ahmedabad,Gujarat,2023-07-08,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,2,1286.68,2573.36
+124,65,2023-07-20,2023-07,Cancelled,76,Harish,Singh,Ahmedabad,Gujarat,2023-07-08,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,826.85,826.85
+125,66,2023-07-22,2023-07,Delivered,12,Sarita,Iyer,Jaipur,Rajasthan,2023-01-14,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,2,5013.15,10026.3
+126,66,2023-07-22,2023-07,Delivered,12,Sarita,Iyer,Jaipur,Rajasthan,2023-01-14,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8713.05,17426.1
+127,67,2023-07-23,2023-07,Delivered,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1273.76,1273.76
+128,68,2023-07-23,2023-07,Delivered,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1463.17,1463.17
+129,69,2023-07-28,2023-07,Delivered,74,Bhavna,Patel,Hyderabad,Telangana,2023-06-26,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,903.35,1806.7
+130,69,2023-07-28,2023-07,Delivered,74,Bhavna,Patel,Hyderabad,Telangana,2023-06-26,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5158.25,10316.5
+131,70,2023-08-01,2023-08,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5019.31,5019.31
+132,71,2023-08-01,2023-08,Shipped,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,68198.51,68198.51
+133,72,2023-08-01,2023-08,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,2,8892.67,17785.34
+134,72,2023-08-01,2023-08,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,1,Ananya,Rao,Management,Sales Manager,10,External SSD 1TB,Storage,1,7030.17,7030.17
+135,73,2023-08-01,2023-08,Pending,11,Sarita,Saxena,Bengaluru,Karnataka,2023-01-13,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1347.17,2694.34
+136,74,2023-08-03,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,506.7,506.7
+137,74,2023-08-03,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8689.59,17379.18
+138,74,2023-08-03,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1642.31,1642.31
+139,75,2023-08-03,2023-08,Shipped,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1632.22,1632.22
+140,75,2023-08-03,2023-08,Shipped,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,517.21,1551.63
+141,75,2023-08-03,2023-08,Shipped,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,2,801.58,1603.16
+142,76,2023-08-03,2023-08,Delivered,29,Naveen,Pillai,Hyderabad,Telangana,2023-02-19,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8894.94,17789.88
+143,77,2023-08-04,2023-08,Delivered,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1503.58,1503.58
+144,77,2023-08-04,2023-08,Delivered,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6370.81,6370.81
+145,78,2023-08-04,2023-08,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,2,785.76,1571.52
+146,79,2023-08-05,2023-08,Shipped,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,2,1543.39,3086.78
+147,79,2023-08-05,2023-08,Shipped,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1476.93,1476.93
+148,79,2023-08-05,2023-08,Shipped,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1307.87,1307.87
+149,80,2023-08-05,2023-08,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,814.61,814.61
+150,80,2023-08-05,2023-08,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,932.25,932.25
+151,81,2023-08-05,2023-08,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1275.62,1275.62
+152,81,2023-08-05,2023-08,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1886.25,1886.25
+153,81,2023-08-05,2023-08,Delivered,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,3,1856.31,5568.93
+154,82,2023-08-07,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,3,8633.91,25901.73
+155,82,2023-08-07,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1915.02,1915.02
+156,83,2023-08-07,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,811.03,811.03
+157,83,2023-08-07,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8806.79,17613.58
+158,84,2023-08-09,2023-08,Shipped,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6424.82,12849.64
+159,84,2023-08-09,2023-08,Shipped,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8732.09,8732.09
+160,84,2023-08-09,2023-08,Shipped,8,Raghav,Bose,Chandigarh,Chandigarh,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,2,893.55,1787.1
+161,85,2023-08-10,2023-08,Delivered,5,Divya,Chatterjee,Nagpur,Maharashtra,2023-01-08,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,67205.48,134410.96
+162,86,2023-08-12,2023-08,Pending,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,9,USB-C Hub,Accessory,3,907.24,2721.72
+163,86,2023-08-12,2023-08,Pending,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8647.18,8647.18
+164,86,2023-08-12,2023-08,Pending,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,1,6728.3,6728.3
+165,86,2023-08-12,2023-08,Pending,61,Ajay,Bose,Kochi,Kerala,2023-05-16,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,2,6365.02,12730.04
+166,87,2023-08-12,2023-08,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,1,1331.72,1331.72
+167,87,2023-08-12,2023-08,Delivered,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,1,1600.83,1600.83
+168,88,2023-08-13,2023-08,Delivered,75,Isha,Kapoor,Ahmedabad,Gujarat,2023-07-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,504.79,504.79
+169,88,2023-08-13,2023-08,Delivered,75,Isha,Kapoor,Ahmedabad,Gujarat,2023-07-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,490.11,980.22
+170,89,2023-08-13,2023-08,Delivered,63,Rekha,Mukherjee,Ahmedabad,Gujarat,2023-05-18,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,2,512.07,1024.14
+171,89,2023-08-13,2023-08,Delivered,63,Rekha,Mukherjee,Ahmedabad,Gujarat,2023-05-18,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1816.8,1816.8
+172,90,2023-08-14,2023-08,Shipped,57,Anju,Chopra,Delhi,Delhi,2023-05-02,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,519.13,519.13
+173,90,2023-08-14,2023-08,Shipped,57,Anju,Chopra,Delhi,Delhi,2023-05-02,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1467.38,1467.38
+174,91,2023-08-14,2023-08,Delivered,29,Naveen,Pillai,Hyderabad,Telangana,2023-02-19,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,929.2,929.2
+175,92,2023-08-19,2023-08,Delivered,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,2,3612.45,7224.9
+176,92,2023-08-19,2023-08,Delivered,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,1,3513.59,3513.59
+177,93,2023-08-20,2023-08,Delivered,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1345.4,1345.4
+178,93,2023-08-20,2023-08,Delivered,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64031.68,64031.68
+179,93,2023-08-20,2023-08,Delivered,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5166.37,5166.37
+180,94,2023-08-20,2023-08,Delivered,81,Naresh,Iyer,Kochi,Kerala,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,2,874.53,1749.06
+181,95,2023-08-21,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12389.93,12389.93
+182,95,2023-08-21,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,3,1347.89,4043.67
+183,95,2023-08-21,2023-08,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67369.27,67369.27
+184,96,2023-08-21,2023-08,Delivered,92,Rajat,Mukherjee,Bengaluru,Karnataka,2023-08-16,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,3,65120.81,195362.43
+185,97,2023-08-22,2023-08,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1821.87,1821.87
+186,97,2023-08-22,2023-08,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1287.78,2575.56
+187,97,2023-08-22,2023-08,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,2,914.79,1829.58
+188,98,2023-08-23,2023-08,Cancelled,46,Anita,Sharma,Indore,Madhya Pradesh,2023-04-09,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,931.35,931.35
+189,99,2023-08-24,2023-08,Delivered,52,Bhavna,Chatterjee,Hyderabad,Telangana,2023-04-25,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,9077.63,9077.63
+190,99,2023-08-24,2023-08,Delivered,52,Bhavna,Chatterjee,Hyderabad,Telangana,2023-04-25,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12477.46,12477.46
+191,100,2023-08-24,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1650.95,1650.95
+192,100,2023-08-24,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12554.4,12554.4
+193,100,2023-08-24,2023-08,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1826.94,1826.94
+194,101,2023-08-27,2023-08,Delivered,91,Sameer,Malhotra,Mumbai,Maharashtra,2023-08-13,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25793.27,25793.27
+195,102,2023-08-27,2023-08,Cancelled,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,500.99,500.99
+196,102,2023-08-27,2023-08,Cancelled,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,917.14,1834.28
+197,103,2023-08-28,2023-08,Cancelled,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5098.98,5098.98
+198,104,2023-08-28,2023-08,Pending,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,1,1464.03,1464.03
+199,104,2023-08-28,2023-08,Pending,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,793.65,793.65
+200,105,2023-09-01,2023-09,Delivered,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,901.89,901.89
+201,106,2023-09-01,2023-09,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,2,7209.35,14418.7
+202,106,2023-09-01,2023-09,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,2,44698.13,89396.26
+203,106,2023-09-01,2023-09,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1895.22,1895.22
+204,106,2023-09-01,2023-09,Delivered,22,Nisha,Menon,Hyderabad,Telangana,2023-02-07,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8736.03,17472.06
+205,107,2023-09-04,2023-09,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1346.61,1346.61
+206,107,2023-09-04,2023-09,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,900.42,900.42
+207,107,2023-09-04,2023-09,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,485.92,485.92
+208,108,2023-09-05,2023-09,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,891.43,891.43
+209,108,2023-09-05,2023-09,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1564.45,1564.45
+210,109,2023-09-11,2023-09,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,894.15,894.15
+211,109,2023-09-11,2023-09,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1907.94,1907.94
+212,110,2023-09-11,2023-09,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1316.28,1316.28
+213,111,2023-09-11,2023-09,Delivered,58,Raghav,Shah,Delhi,Delhi,2023-05-07,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1628.21,1628.21
+214,112,2023-09-13,2023-09,Delivered,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1283.09,1283.09
+215,113,2023-09-13,2023-09,Delivered,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1337.97,2675.94
+216,114,2023-09-13,2023-09,Delivered,43,Anand,Rao,Kochi,Kerala,2023-03-22,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1335.97,1335.97
+217,114,2023-09-13,2023-09,Delivered,43,Anand,Rao,Kochi,Kerala,2023-03-22,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46310.32,46310.32
+218,114,2023-09-13,2023-09,Delivered,43,Anand,Rao,Kochi,Kerala,2023-03-22,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,1,3485.69,3485.69
+219,115,2023-09-13,2023-09,Cancelled,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,2,45134.8,90269.6
+220,115,2023-09-13,2023-09,Cancelled,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,922.16,922.16
+221,115,2023-09-13,2023-09,Cancelled,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,4933.48,4933.48
+222,116,2023-09-15,2023-09,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,3,6861.51,20584.53
+223,117,2023-09-15,2023-09,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,917.09,917.09
+224,117,2023-09-15,2023-09,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,4984.14,4984.14
+225,117,2023-09-15,2023-09,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45730.15,45730.15
+226,117,2023-09-15,2023-09,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1500.78,1500.78
+227,118,2023-09-15,2023-09,Delivered,53,Rajat,Shah,Delhi,Delhi,2023-04-26,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,1,3432.49,3432.49
+228,119,2023-09-16,2023-09,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,931.93,1863.86
+229,120,2023-09-16,2023-09,Pending,29,Naveen,Pillai,Hyderabad,Telangana,2023-02-19,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,888.61,888.61
+230,120,2023-09-16,2023-09,Pending,29,Naveen,Pillai,Hyderabad,Telangana,2023-02-19,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,498.21,498.21
+231,121,2023-09-17,2023-09,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47118.94,47118.94
+232,121,2023-09-17,2023-09,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7258.49,7258.49
+233,121,2023-09-17,2023-09,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,4900.71,4900.71
+234,122,2023-09-18,2023-09,Pending,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,3,3497.62,10492.86
+235,123,2023-09-19,2023-09,Pending,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1526.02,1526.02
+236,123,2023-09-19,2023-09,Pending,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,3,1910.24,5730.72
+237,124,2023-09-19,2023-09,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,2,4912.41,9824.82
+238,124,2023-09-19,2023-09,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24472.92,24472.92
+239,124,2023-09-19,2023-09,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25663.58,25663.58
+240,125,2023-09-19,2023-09,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,2,Vikram,Shah,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12517.62,12517.62
+241,125,2023-09-19,2023-09,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1841.99,1841.99
+242,126,2023-09-19,2023-09,Delivered,69,Aarti,Bose,Indore,Madhya Pradesh,2023-06-14,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,2,1813.67,3627.34
+243,126,2023-09-19,2023-09,Delivered,69,Aarti,Bose,Indore,Madhya Pradesh,2023-06-14,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24543.35,24543.35
+244,126,2023-09-19,2023-09,Delivered,69,Aarti,Bose,Indore,Madhya Pradesh,2023-06-14,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5182.38,5182.38
+245,127,2023-09-20,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6750.07,13500.14
+246,127,2023-09-20,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,45165.57,45165.57
+247,127,2023-09-20,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,880.77,880.77
+248,128,2023-09-20,2023-09,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,502.73,502.73
+249,128,2023-09-20,2023-09,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,796.21,796.21
+250,128,2023-09-20,2023-09,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8536.03,17072.06
+251,128,2023-09-20,2023-09,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8838.74,8838.74
+252,129,2023-09-21,2023-09,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1561.29,3122.58
+253,130,2023-09-21,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,877.47,877.47
+254,130,2023-09-21,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,2,500.31,1000.62
+255,130,2023-09-21,2023-09,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,811.98,811.98
+256,131,2023-09-22,2023-09,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67878.79,67878.79
+257,131,2023-09-22,2023-09,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,46674.12,140022.36
+258,131,2023-09-22,2023-09,Delivered,18,Kriti,Iyer,Mumbai,Maharashtra,2023-02-02,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,879.58,1759.16
+259,132,2023-09-26,2023-09,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,491.58,491.58
+260,132,2023-09-26,2023-09,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6564.13,6564.13
+261,133,2023-09-26,2023-09,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8595.81,8595.81
+262,133,2023-09-26,2023-09,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,1,790.99,790.99
+263,134,2023-09-26,2023-09,Delivered,2,Vivek,Gupta,Chandigarh,Chandigarh,2023-01-04,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6914.82,6914.82
+264,135,2023-09-28,2023-09,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,1,44725.46,44725.46
+265,135,2023-09-28,2023-09,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,3,45632.14,136896.42
+266,135,2023-09-28,2023-09,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,3,908.97,2726.91
+267,135,2023-09-28,2023-09,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,2,916.88,1833.76
+268,136,2023-09-28,2023-09,Cancelled,2,Vivek,Gupta,Chandigarh,Chandigarh,2023-01-04,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,65721.84,65721.84
+269,136,2023-09-28,2023-09,Cancelled,2,Vivek,Gupta,Chandigarh,Chandigarh,2023-01-04,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,68462.19,68462.19
+270,137,2023-10-01,2023-10,Pending,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,920.01,1840.02
+271,138,2023-10-02,2023-10,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,3,Priya,Nair,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,3,24936.67,74810.01
+272,139,2023-10-02,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,9083.41,9083.41
+273,139,2023-10-02,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24774.85,24774.85
+274,139,2023-10-02,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,2,3583.61,7167.22
+275,140,2023-10-02,2023-10,Delivered,76,Harish,Singh,Ahmedabad,Gujarat,2023-07-08,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,2,827.48,1654.96
+276,140,2023-10-02,2023-10,Delivered,76,Harish,Singh,Ahmedabad,Gujarat,2023-07-08,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,489.73,489.73
+277,141,2023-10-03,2023-10,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47132.75,47132.75
+278,141,2023-10-03,2023-10,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,99969.89,99969.89
+279,141,2023-10-03,2023-10,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47437.57,47437.57
+280,141,2023-10-03,2023-10,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1460.08,1460.08
+281,142,2023-10-03,2023-10,Shipped,58,Raghav,Shah,Delhi,Delhi,2023-05-07,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1308.82,1308.82
+282,143,2023-10-04,2023-10,Delivered,69,Aarti,Bose,Indore,Madhya Pradesh,2023-06-14,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1325.31,1325.31
+283,144,2023-10-04,2023-10,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,493.92,493.92
+284,145,2023-10-04,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,891.94,891.94
+285,145,2023-10-04,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8490.7,8490.7
+286,145,2023-10-04,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,885.97,885.97
+287,145,2023-10-04,2023-10,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,899.48,1798.96
+288,146,2023-10-04,2023-10,Shipped,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,7065.91,7065.91
+289,146,2023-10-04,2023-10,Shipped,54,Raghav,Sharma,Ahmedabad,Gujarat,2023-04-27,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,880.1,880.1
+290,147,2023-10-05,2023-10,Cancelled,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,3,827.93,2483.79
+291,147,2023-10-05,2023-10,Cancelled,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,2,1329.45,2658.9
+292,147,2023-10-05,2023-10,Cancelled,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8888.38,8888.38
+293,148,2023-10-05,2023-10,Delivered,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8832.06,8832.06
+294,149,2023-10-05,2023-10,Delivered,103,Raghav,Saxena,Pune,Maharashtra,2023-09-12,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1880.76,1880.76
+295,149,2023-10-05,2023-10,Delivered,103,Raghav,Saxena,Pune,Maharashtra,2023-09-12,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1520.98,1520.98
+296,149,2023-10-05,2023-10,Delivered,103,Raghav,Saxena,Pune,Maharashtra,2023-09-12,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,3,3472.94,10418.82
+297,150,2023-10-06,2023-10,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,9014.98,18029.96
+298,150,2023-10-06,2023-10,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,3,1467.75,4403.25
+299,151,2023-10-06,2023-10,Cancelled,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47672.85,47672.85
+300,151,2023-10-06,2023-10,Cancelled,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,3,1825.5,5476.5
+301,151,2023-10-06,2023-10,Cancelled,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1845.76,1845.76
+302,152,2023-10-06,2023-10,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1343.53,1343.53
+303,153,2023-10-07,2023-10,Delivered,60,Veena,Agarwal,Chandigarh,Chandigarh,2023-05-15,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,98342.19,98342.19
+304,153,2023-10-07,2023-10,Delivered,60,Veena,Agarwal,Chandigarh,Chandigarh,2023-05-15,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1622.39,1622.39
+305,154,2023-10-07,2023-10,Delivered,60,Veena,Agarwal,Chandigarh,Chandigarh,2023-05-15,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1557.96,1557.96
+306,154,2023-10-07,2023-10,Delivered,60,Veena,Agarwal,Chandigarh,Chandigarh,2023-05-15,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,925.34,925.34
+307,155,2023-10-08,2023-10,Cancelled,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,2,1850.17,3700.34
+308,156,2023-10-09,2023-10,Cancelled,7,Sandeep,Mehta,Chennai,Tamil Nadu,2023-01-10,1,Ananya,Rao,Management,Sales Manager,9,USB-C Hub,Accessory,1,911.03,911.03
+309,156,2023-10-09,2023-10,Cancelled,7,Sandeep,Mehta,Chennai,Tamil Nadu,2023-01-10,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,2,490.16,980.32
+310,157,2023-10-09,2023-10,Delivered,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6911.85,6911.85
+311,157,2023-10-09,2023-10,Delivered,37,Neha,Trivedi,Nagpur,Maharashtra,2023-03-07,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46489.01,46489.01
+312,158,2023-10-09,2023-10,Delivered,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1795.66,1795.66
+313,158,2023-10-09,2023-10,Delivered,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,2,Vikram,Shah,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,3,25680.43,77041.29
+314,158,2023-10-09,2023-10,Delivered,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,806.76,806.76
+315,158,2023-10-09,2023-10,Delivered,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,3,795.1,2385.3
+316,159,2023-10-09,2023-10,Delivered,97,Ashok,Gupta,Bengaluru,Karnataka,2023-08-25,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,486.47,486.47
+317,159,2023-10-09,2023-10,Delivered,97,Ashok,Gupta,Bengaluru,Karnataka,2023-08-25,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6684.74,13369.48
+318,160,2023-10-09,2023-10,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,502.95,502.95
+319,160,2023-10-09,2023-10,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,65671.78,65671.78
+320,160,2023-10-09,2023-10,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,503.93,503.93
+321,161,2023-10-09,2023-10,Delivered,81,Naresh,Iyer,Kochi,Kerala,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6532.31,13064.62
+322,162,2023-10-10,2023-10,Delivered,92,Rajat,Mukherjee,Bengaluru,Karnataka,2023-08-16,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1606.19,1606.19
+323,163,2023-10-10,2023-10,Delivered,38,Vinay,Chopra,Jaipur,Rajasthan,2023-03-09,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1265.48,1265.48
+324,163,2023-10-10,2023-10,Delivered,38,Vinay,Chopra,Jaipur,Rajasthan,2023-03-09,3,Priya,Nair,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12978.41,12978.41
+325,164,2023-10-10,2023-10,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,2,Vikram,Shah,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12298.14,12298.14
+326,164,2023-10-10,2023-10,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,2,896.31,1792.62
+327,165,2023-10-10,2023-10,Delivered,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,4,Rohan,Mehta,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67749.93,67749.93
+328,165,2023-10-10,2023-10,Delivered,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,516.85,516.85
+329,165,2023-10-10,2023-10,Delivered,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,2,46101.36,92202.72
+330,166,2023-10-10,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,3,513.04,1539.12
+331,166,2023-10-10,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45335.78,45335.78
+332,166,2023-10-10,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,904.85,1809.7
+333,167,2023-10-10,2023-10,Cancelled,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,2,3569.56,7139.12
+334,168,2023-10-11,2023-10,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,510.44,510.44
+335,168,2023-10-11,2023-10,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1633.2,1633.2
+336,168,2023-10-11,2023-10,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,882.66,882.66
+337,168,2023-10-11,2023-10,Pending,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6601.0,6601.0
+338,169,2023-10-11,2023-10,Delivered,53,Rajat,Shah,Delhi,Delhi,2023-04-26,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1311.88,1311.88
+339,170,2023-10-11,2023-10,Cancelled,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,816.29,816.29
+340,170,2023-10-11,2023-10,Cancelled,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8717.76,17435.52
+341,171,2023-10-11,2023-10,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1268.27,1268.27
+342,171,2023-10-11,2023-10,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12784.47,12784.47
+343,171,2023-10-11,2023-10,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8895.06,8895.06
+344,172,2023-10-11,2023-10,Cancelled,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47494.98,47494.98
+345,173,2023-10-12,2023-10,Shipped,112,Naresh,Desai,Bengaluru,Karnataka,2023-10-03,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,1,6438.85,6438.85
+346,174,2023-10-12,2023-10,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,1,97034.36,97034.36
+347,174,2023-10-12,2023-10,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,3,3431.79,10295.37
+348,174,2023-10-12,2023-10,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,9096.33,9096.33
+349,175,2023-10-12,2023-10,Delivered,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,9052.57,18105.14
+350,175,2023-10-12,2023-10,Delivered,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,68420.15,68420.15
+351,176,2023-10-13,2023-10,Delivered,50,Deepak,Nair,Surat,Gujarat,2023-04-21,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6728.25,6728.25
+352,176,2023-10-13,2023-10,Delivered,50,Deepak,Nair,Surat,Gujarat,2023-04-21,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,902.95,902.95
+353,177,2023-10-13,2023-10,Cancelled,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6842.59,6842.59
+354,177,2023-10-13,2023-10,Cancelled,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1546.13,1546.13
+355,178,2023-10-13,2023-10,Pending,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1271.43,1271.43
+356,178,2023-10-13,2023-10,Pending,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,7028.71,7028.71
+357,179,2023-10-14,2023-10,Delivered,91,Sameer,Malhotra,Mumbai,Maharashtra,2023-08-13,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8903.89,17807.78
+358,180,2023-10-14,2023-10,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6691.45,6691.45
+359,180,2023-10-14,2023-10,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,509.75,509.75
+360,180,2023-10-14,2023-10,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6721.21,13442.42
+361,180,2023-10-14,2023-10,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,829.16,829.16
+362,181,2023-10-14,2023-10,Delivered,74,Bhavna,Patel,Hyderabad,Telangana,2023-06-26,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5065.91,5065.91
+363,182,2023-10-14,2023-10,Delivered,82,Preeti,Trivedi,Jaipur,Rajasthan,2023-07-13,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,3,4947.36,14842.08
+364,183,2023-10-15,2023-10,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,487.99,975.98
+365,184,2023-10-15,2023-10,Delivered,110,Jyoti,Pillai,Pune,Maharashtra,2023-09-25,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6880.42,6880.42
+366,185,2023-10-15,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,3,795.98,2387.94
+367,186,2023-10-16,2023-10,Delivered,40,Ritu,Agarwal,Lucknow,Uttar Pradesh,2023-03-15,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,782.31,782.31
+368,187,2023-10-16,2023-10,Delivered,63,Rekha,Mukherjee,Ahmedabad,Gujarat,2023-05-18,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6667.73,6667.73
+369,187,2023-10-16,2023-10,Delivered,63,Rekha,Mukherjee,Ahmedabad,Gujarat,2023-05-18,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1924.01,1924.01
+370,188,2023-10-16,2023-10,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,2,791.77,1583.54
+371,188,2023-10-16,2023-10,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6448.55,12897.1
+372,188,2023-10-16,2023-10,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,786.68,786.68
+373,189,2023-10-16,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8808.16,8808.16
+374,189,2023-10-16,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,3,823.7,2471.1
+375,189,2023-10-16,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6642.18,6642.18
+376,189,2023-10-16,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1267.07,1267.07
+377,190,2023-10-17,2023-10,Delivered,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12981.37,12981.37
+378,190,2023-10-17,2023-10,Delivered,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6667.52,6667.52
+379,191,2023-10-17,2023-10,Delivered,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1648.15,1648.15
+380,191,2023-10-17,2023-10,Delivered,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1899.34,1899.34
+381,191,2023-10-17,2023-10,Delivered,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5018.46,5018.46
+382,191,2023-10-17,2023-10,Delivered,16,Rekha,Sinha,Chennai,Tamil Nadu,2023-01-26,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,3,889.59,2668.77
+383,192,2023-10-17,2023-10,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,811.92,811.92
+384,192,2023-10-17,2023-10,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,926.7,926.7
+385,193,2023-10-17,2023-10,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,505.03,505.03
+386,193,2023-10-17,2023-10,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,793.99,793.99
+387,193,2023-10-17,2023-10,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,918.96,918.96
+388,194,2023-10-19,2023-10,Cancelled,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1902.8,1902.8
+389,194,2023-10-19,2023-10,Cancelled,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1639.97,1639.97
+390,194,2023-10-19,2023-10,Cancelled,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,2,3438.58,6877.16
+391,195,2023-10-19,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1868.4,1868.4
+392,195,2023-10-19,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,876.3,876.3
+393,195,2023-10-19,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,815.27,815.27
+394,196,2023-10-19,2023-10,Shipped,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,2,6802.4,13604.8
+395,196,2023-10-19,2023-10,Shipped,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1272.05,1272.05
+396,197,2023-10-19,2023-10,Delivered,50,Deepak,Nair,Surat,Gujarat,2023-04-21,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,9078.22,9078.22
+397,197,2023-10-19,2023-10,Delivered,50,Deepak,Nair,Surat,Gujarat,2023-04-21,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,790.14,790.14
+398,198,2023-10-20,2023-10,Delivered,55,Seema,Sharma,Bengaluru,Karnataka,2023-04-28,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,1,47419.9,47419.9
+399,198,2023-10-20,2023-10,Delivered,55,Seema,Sharma,Bengaluru,Karnataka,2023-04-28,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,1,783.28,783.28
+400,198,2023-10-20,2023-10,Delivered,55,Seema,Sharma,Bengaluru,Karnataka,2023-04-28,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,2,485.09,970.18
+401,199,2023-10-20,2023-10,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7201.81,7201.81
+402,199,2023-10-20,2023-10,Delivered,33,Nidhi,Reddy,Surat,Gujarat,2023-03-03,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1540.62,1540.62
+403,200,2023-10-20,2023-10,Cancelled,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,787.79,787.79
+404,201,2023-10-20,2023-10,Delivered,71,Naresh,Singh,Delhi,Delhi,2023-06-20,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8795.43,8795.43
+405,201,2023-10-20,2023-10,Delivered,71,Naresh,Singh,Delhi,Delhi,2023-06-20,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1528.74,1528.74
+406,202,2023-10-20,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1330.7,1330.7
+407,202,2023-10-20,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46696.91,46696.91
+408,202,2023-10-20,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,487.97,487.97
+409,202,2023-10-20,2023-10,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,3,66522.27,199566.81
+410,203,2023-10-21,2023-10,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1661.71,1661.71
+411,203,2023-10-21,2023-10,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1886.17,1886.17
+412,204,2023-10-21,2023-10,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7022.63,7022.63
+413,204,2023-10-21,2023-10,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1477.76,1477.76
+414,205,2023-10-21,2023-10,Delivered,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7229.29,7229.29
+415,205,2023-10-21,2023-10,Delivered,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1518.85,1518.85
+416,206,2023-10-21,2023-10,Shipped,87,Sameer,Menon,Jaipur,Rajasthan,2023-08-04,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1650.18,1650.18
+417,207,2023-10-22,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1874.27,1874.27
+418,207,2023-10-22,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,912.02,912.02
+419,207,2023-10-22,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,916.15,916.15
+420,208,2023-10-22,2023-10,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6566.41,13132.82
+421,208,2023-10-22,2023-10,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8599.75,8599.75
+422,208,2023-10-22,2023-10,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,904.2,1808.4
+423,209,2023-10-22,2023-10,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1343.31,1343.31
+424,209,2023-10-22,2023-10,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,2,917.66,1835.32
+425,209,2023-10-22,2023-10,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,921.44,921.44
+426,209,2023-10-22,2023-10,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,46026.52,138079.56
+427,210,2023-10-23,2023-10,Shipped,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,895.88,895.88
+428,210,2023-10-23,2023-10,Shipped,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45995.48,45995.48
+429,210,2023-10-23,2023-10,Shipped,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1287.15,1287.15
+430,211,2023-10-23,2023-10,Delivered,3,Richa,Singh,Kolkata,West Bengal,2023-01-08,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,879.19,1758.38
+431,212,2023-10-23,2023-10,Shipped,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5112.49,5112.49
+432,213,2023-10-24,2023-10,Pending,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46389.41,46389.41
+433,214,2023-10-24,2023-10,Pending,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,497.08,497.08
+434,214,2023-10-24,2023-10,Pending,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7269.82,7269.82
+435,215,2023-10-25,2023-10,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8935.45,17870.9
+436,215,2023-10-25,2023-10,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67087.33,67087.33
+437,215,2023-10-25,2023-10,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,778.57,778.57
+438,216,2023-10-25,2023-10,Cancelled,106,Mohit,Joshi,Jaipur,Rajasthan,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5080.58,5080.58
+439,216,2023-10-25,2023-10,Cancelled,106,Mohit,Joshi,Jaipur,Rajasthan,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1490.31,1490.31
+440,217,2023-10-25,2023-10,Cancelled,97,Ashok,Gupta,Bengaluru,Karnataka,2023-08-25,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,502.05,1004.1
+441,218,2023-10-25,2023-10,Delivered,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,891.42,891.42
+442,219,2023-10-26,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8810.98,17621.96
+443,219,2023-10-26,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1872.57,1872.57
+444,219,2023-10-26,2023-10,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1313.91,1313.91
+445,220,2023-10-26,2023-10,Delivered,113,Tarun,Trivedi,Mumbai,Maharashtra,2023-10-05,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,4908.34,4908.34
+446,221,2023-10-26,2023-10,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,916.93,916.93
+447,221,2023-10-26,2023-10,Delivered,48,Sanjay,Agarwal,Bengaluru,Karnataka,2023-04-09,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,507.71,1015.42
+448,222,2023-10-26,2023-10,Shipped,27,Richa,Saxena,Kolkata,West Bengal,2023-02-14,1,Ananya,Rao,Management,Sales Manager,9,USB-C Hub,Accessory,3,915.85,2747.55
+449,223,2023-10-27,2023-10,Delivered,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1314.77,1314.77
+450,223,2023-10-27,2023-10,Delivered,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,499.8,499.8
+451,223,2023-10-27,2023-10,Delivered,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6549.51,6549.51
+452,223,2023-10-27,2023-10,Delivered,90,Kavita,Agarwal,Mumbai,Maharashtra,2023-08-11,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,2,517.56,1035.12
+453,224,2023-10-27,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6662.42,6662.42
+454,224,2023-10-27,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,46820.01,140460.03
+455,224,2023-10-27,2023-10,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,44819.26,44819.26
+456,225,2023-10-27,2023-10,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,2,3624.04,7248.08
+457,225,2023-10-27,2023-10,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,872.83,872.83
+458,226,2023-10-27,2023-10,Pending,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,879.71,1759.42
+459,226,2023-10-27,2023-10,Pending,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,9013.07,18026.14
+460,226,2023-10-27,2023-10,Pending,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1652.86,1652.86
+461,226,2023-10-27,2023-10,Pending,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,9086.78,9086.78
+462,227,2023-10-28,2023-10,Pending,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,1,3619.59,3619.59
+463,227,2023-10-28,2023-10,Pending,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,3,67469.04,202407.12
+464,227,2023-10-28,2023-10,Pending,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,44936.5,44936.5
+465,228,2023-10-28,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1323.92,1323.92
+466,228,2023-10-28,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,2,6378.14,12756.28
+467,228,2023-10-28,2023-10,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,3,8490.98,25472.94
+468,229,2023-11-01,2023-11,Pending,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,918.16,918.16
+469,229,2023-11-01,2023-11,Pending,30,Girish,Malhotra,Kolkata,West Bengal,2023-02-21,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1589.39,1589.39
+470,230,2023-11-01,2023-11,Cancelled,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6972.58,6972.58
+471,230,2023-11-01,2023-11,Cancelled,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,2,786.11,1572.22
+472,231,2023-11-01,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,99396.46,99396.46
+473,231,2023-11-01,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6579.99,13159.98
+474,231,2023-11-01,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5087.63,5087.63
+475,231,2023-11-01,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1586.31,1586.31
+476,232,2023-11-02,2023-11,Cancelled,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8610.73,8610.73
+477,233,2023-11-02,2023-11,Shipped,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,3,789.54,2368.62
+478,233,2023-11-02,2023-11,Shipped,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6979.26,6979.26
+479,234,2023-11-02,2023-11,Pending,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,1,Ananya,Rao,Management,Sales Manager,10,External SSD 1TB,Storage,1,7033.42,7033.42
+480,234,2023-11-02,2023-11,Pending,28,Harish,Nair,Hyderabad,Telangana,2023-02-15,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,1,1556.47,1556.47
+481,235,2023-11-02,2023-11,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,1,Ananya,Rao,Management,Sales Manager,10,External SSD 1TB,Storage,1,7152.51,7152.51
+482,236,2023-11-02,2023-11,Delivered,46,Anita,Sharma,Indore,Madhya Pradesh,2023-04-09,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,493.85,493.85
+483,236,2023-11-02,2023-11,Delivered,46,Anita,Sharma,Indore,Madhya Pradesh,2023-04-09,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,514.93,514.93
+484,236,2023-11-02,2023-11,Delivered,46,Anita,Sharma,Indore,Madhya Pradesh,2023-04-09,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,485.19,485.19
+485,237,2023-11-02,2023-11,Delivered,66,Deepak,Pillay,Chennai,Tamil Nadu,2023-05-27,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,889.51,889.51
+486,237,2023-11-02,2023-11,Delivered,66,Deepak,Pillay,Chennai,Tamil Nadu,2023-05-27,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,2,1814.0,3628.0
+487,238,2023-11-02,2023-11,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,3,Priya,Nair,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25219.02,25219.02
+488,238,2023-11-02,2023-11,Delivered,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,802.3,802.3
+489,239,2023-11-03,2023-11,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8688.24,8688.24
+490,239,2023-11-03,2023-11,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,2,1807.96,3615.92
+491,239,2023-11-03,2023-11,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,3,3520.45,10561.35
+492,240,2023-11-03,2023-11,Delivered,112,Naresh,Desai,Bengaluru,Karnataka,2023-10-03,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7083.59,7083.59
+493,241,2023-11-04,2023-11,Pending,130,Simran,Rao,Bengaluru,Karnataka,2023-11-03,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1849.12,1849.12
+494,241,2023-11-04,2023-11,Pending,130,Simran,Rao,Bengaluru,Karnataka,2023-11-03,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1299.34,1299.34
+495,241,2023-11-04,2023-11,Pending,130,Simran,Rao,Bengaluru,Karnataka,2023-11-03,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8717.01,8717.01
+496,242,2023-11-04,2023-11,Delivered,36,Veena,Chatterjee,Pune,Maharashtra,2023-03-05,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,1,3438.32,3438.32
+497,242,2023-11-04,2023-11,Delivered,36,Veena,Chatterjee,Pune,Maharashtra,2023-03-05,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,911.34,911.34
+498,242,2023-11-04,2023-11,Delivered,36,Veena,Chatterjee,Pune,Maharashtra,2023-03-05,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,2,917.41,1834.82
+499,243,2023-11-04,2023-11,Delivered,113,Tarun,Trivedi,Mumbai,Maharashtra,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,1,3498.9,3498.9
+500,244,2023-11-04,2023-11,Pending,120,Satish,Chopra,Chennai,Tamil Nadu,2023-10-11,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8757.93,8757.93
+501,244,2023-11-04,2023-11,Pending,120,Satish,Chopra,Chennai,Tamil Nadu,2023-10-11,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,490.22,490.22
+502,244,2023-11-04,2023-11,Pending,120,Satish,Chopra,Chennai,Tamil Nadu,2023-10-11,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1261.9,1261.9
+503,245,2023-11-04,2023-11,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6995.38,6995.38
+504,245,2023-11-04,2023-11,Delivered,17,Arvind,Trivedi,Ahmedabad,Gujarat,2023-02-01,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1856.08,1856.08
+505,246,2023-11-04,2023-11,Pending,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,4,Rohan,Mehta,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64906.99,64906.99
+506,247,2023-11-04,2023-11,Cancelled,27,Richa,Saxena,Kolkata,West Bengal,2023-02-14,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1548.11,1548.11
+507,247,2023-11-04,2023-11,Cancelled,27,Richa,Saxena,Kolkata,West Bengal,2023-02-14,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,1,3625.86,3625.86
+508,247,2023-11-04,2023-11,Cancelled,27,Richa,Saxena,Kolkata,West Bengal,2023-02-14,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,893.75,893.75
+509,248,2023-11-05,2023-11,Cancelled,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,919.12,919.12
+510,248,2023-11-05,2023-11,Cancelled,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,506.55,1013.1
+511,248,2023-11-05,2023-11,Cancelled,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8620.81,8620.81
+512,249,2023-11-05,2023-11,Pending,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46942.2,46942.2
+513,250,2023-11-05,2023-11,Delivered,88,Anju,Desai,Chandigarh,Chandigarh,2023-08-04,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1636.44,1636.44
+514,251,2023-11-05,2023-11,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,923.58,923.58
+515,252,2023-11-05,2023-11,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8983.57,8983.57
+516,253,2023-11-06,2023-11,Delivered,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,1,1540.06,1540.06
+517,254,2023-11-06,2023-11,Delivered,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,510.37,1020.74
+518,255,2023-11-07,2023-11,Delivered,106,Mohit,Joshi,Jaipur,Rajasthan,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1466.01,1466.01
+519,256,2023-11-08,2023-11,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,1,96626.5,96626.5
+520,256,2023-11-08,2023-11,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,934.93,934.93
+521,257,2023-11-08,2023-11,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,66859.93,66859.93
+522,258,2023-11-08,2023-11,Delivered,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,510.98,510.98
+523,259,2023-11-08,2023-11,Delivered,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,779.81,779.81
+524,259,2023-11-08,2023-11,Delivered,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,874.13,874.13
+525,259,2023-11-08,2023-11,Delivered,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,822.44,822.44
+526,259,2023-11-08,2023-11,Delivered,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6851.51,6851.51
+527,260,2023-11-08,2023-11,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8944.2,8944.2
+528,260,2023-11-08,2023-11,Delivered,21,Yogesh,Bose,Ahmedabad,Gujarat,2023-02-06,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1542.74,3085.48
+529,261,2023-11-08,2023-11,Cancelled,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5114.14,10228.28
+530,262,2023-11-09,2023-11,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,915.08,915.08
+531,262,2023-11-09,2023-11,Delivered,65,Bhavna,Joshi,Bengaluru,Karnataka,2023-05-25,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,2,1624.2,3248.4
+532,263,2023-11-09,2023-11,Shipped,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64825.73,64825.73
+533,264,2023-11-09,2023-11,Delivered,70,Pallavi,Desai,Indore,Madhya Pradesh,2023-06-19,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,3,4958.65,14875.95
+534,264,2023-11-09,2023-11,Delivered,70,Pallavi,Desai,Indore,Madhya Pradesh,2023-06-19,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1454.92,1454.92
+535,265,2023-11-09,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1803.83,1803.83
+536,265,2023-11-09,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,917.92,917.92
+537,265,2023-11-09,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45671.7,45671.7
+538,265,2023-11-09,2023-11,Cancelled,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,511.66,511.66
+539,266,2023-11-10,2023-11,Pending,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,3,498.86,1496.58
+540,266,2023-11-10,2023-11,Pending,41,Sapna,Bhatia,Ahmedabad,Gujarat,2023-03-15,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1485.39,1485.39
+541,267,2023-11-10,2023-11,Delivered,91,Sameer,Malhotra,Mumbai,Maharashtra,2023-08-13,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,9033.71,9033.71
+542,267,2023-11-10,2023-11,Delivered,91,Sameer,Malhotra,Mumbai,Maharashtra,2023-08-13,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,780.47,780.47
+543,268,2023-11-10,2023-11,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1319.12,1319.12
+544,268,2023-11-10,2023-11,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67356.81,67356.81
+545,268,2023-11-10,2023-11,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,2,778.12,1556.24
+546,268,2023-11-10,2023-11,Delivered,104,Kavita,Khanna,Kochi,Kerala,2023-09-12,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1289.07,2578.14
+547,269,2023-11-10,2023-11,Delivered,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,2,3631.22,7262.44
+548,270,2023-11-11,2023-11,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,1,1292.99,1292.99
+549,270,2023-11-11,2023-11,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,2,823.45,1646.9
+550,271,2023-11-11,2023-11,Delivered,52,Bhavna,Chatterjee,Hyderabad,Telangana,2023-04-25,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,2,920.76,1841.52
+551,272,2023-11-11,2023-11,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1893.56,1893.56
+552,273,2023-11-11,2023-11,Delivered,52,Bhavna,Chatterjee,Hyderabad,Telangana,2023-04-25,2,Vikram,Shah,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24773.36,24773.36
+553,273,2023-11-11,2023-11,Delivered,52,Bhavna,Chatterjee,Hyderabad,Telangana,2023-04-25,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,878.63,878.63
+554,274,2023-11-12,2023-11,Delivered,94,Anita,Menon,Kochi,Kerala,2023-08-17,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,920.13,920.13
+555,274,2023-11-12,2023-11,Delivered,94,Anita,Menon,Kochi,Kerala,2023-08-17,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47804.35,47804.35
+556,275,2023-11-12,2023-11,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,931.7,931.7
+557,275,2023-11-12,2023-11,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,518.46,518.46
+558,276,2023-11-12,2023-11,Delivered,94,Anita,Menon,Kochi,Kerala,2023-08-17,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,2,12609.91,25219.82
+559,276,2023-11-12,2023-11,Delivered,94,Anita,Menon,Kochi,Kerala,2023-08-17,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,2,1474.6,2949.2
+560,277,2023-11-12,2023-11,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,2,64388.92,128777.84
+561,277,2023-11-12,2023-11,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,780.79,780.79
+562,277,2023-11-12,2023-11,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,7219.53,7219.53
+563,277,2023-11-12,2023-11,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,873.69,873.69
+564,278,2023-11-12,2023-11,Delivered,133,Ajay,Pillay,Delhi,Delhi,2023-11-10,1,Ananya,Rao,Management,Sales Manager,11,Webcam HD,Accessory,1,1461.33,1461.33
+565,279,2023-11-13,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,917.79,1835.58
+566,279,2023-11-13,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5059.85,5059.85
+567,280,2023-11-13,2023-11,Cancelled,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6586.75,13173.5
+568,280,2023-11-13,2023-11,Cancelled,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,102526.43,102526.43
+569,281,2023-11-13,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,45245.49,45245.49
+570,281,2023-11-13,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67555.74,67555.74
+571,281,2023-11-13,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,486.03,486.03
+572,282,2023-11-13,2023-11,Delivered,103,Raghav,Saxena,Pune,Maharashtra,2023-09-12,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8784.67,17569.34
+573,283,2023-11-14,2023-11,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8846.29,8846.29
+574,283,2023-11-14,2023-11,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,2,498.32,996.64
+575,283,2023-11-14,2023-11,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,495.31,495.31
+576,284,2023-11-14,2023-11,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,4857.14,4857.14
+577,284,2023-11-14,2023-11,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,3,5025.9,15077.7
+578,284,2023-11-14,2023-11,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,3,4924.32,14772.96
+579,285,2023-11-14,2023-11,Pending,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,1,1312.48,1312.48
+580,285,2023-11-14,2023-11,Pending,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,1,6565.03,6565.03
+581,285,2023-11-14,2023-11,Pending,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,1,Ananya,Rao,Management,Sales Manager,16,Studio Microphone,Audio,3,3430.14,10290.42
+582,286,2023-11-14,2023-11,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6510.84,6510.84
+583,286,2023-11-14,2023-11,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,3,872.04,2616.12
+584,286,2023-11-14,2023-11,Delivered,84,Poonam,Chopra,Surat,Gujarat,2023-07-17,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,790.94,790.94
+585,287,2023-11-14,2023-11,Delivered,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,3,7070.34,21211.02
+586,287,2023-11-14,2023-11,Delivered,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46526.26,46526.26
+587,288,2023-11-14,2023-11,Pending,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,879.07,879.07
+588,288,2023-11-14,2023-11,Pending,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,2,827.21,1654.42
+589,289,2023-11-15,2023-11,Delivered,35,Sarita,Nair,Lucknow,Uttar Pradesh,2023-03-05,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,2,6795.93,13591.86
+590,290,2023-11-15,2023-11,Cancelled,79,Pallavi,Chopra,Chandigarh,Chandigarh,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6405.68,6405.68
+591,290,2023-11-15,2023-11,Cancelled,79,Pallavi,Chopra,Chandigarh,Chandigarh,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6423.65,6423.65
+592,291,2023-11-15,2023-11,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6579.91,6579.91
+593,291,2023-11-15,2023-11,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,891.2,891.2
+594,291,2023-11-15,2023-11,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64974.67,64974.67
+595,292,2023-11-15,2023-11,Delivered,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,2,1311.37,2622.74
+596,292,2023-11-15,2023-11,Delivered,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,66283.22,66283.22
+597,293,2023-11-15,2023-11,Shipped,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,4901.68,4901.68
+598,293,2023-11-15,2023-11,Shipped,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8671.67,8671.67
+599,294,2023-11-16,2023-11,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5123.1,5123.1
+600,294,2023-11-16,2023-11,Delivered,83,Dinesh,Mukherjee,Pune,Maharashtra,2023-07-15,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,904.84,1809.68
+601,295,2023-11-16,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,493.31,986.62
+602,295,2023-11-16,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,887.03,887.03
+603,295,2023-11-16,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,911.22,911.22
+604,295,2023-11-16,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1903.62,1903.62
+605,296,2023-11-16,2023-11,Delivered,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,2,6933.32,13866.64
+606,296,2023-11-16,2023-11,Delivered,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12125.6,12125.6
+607,296,2023-11-16,2023-11,Delivered,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6565.64,13131.28
+608,297,2023-11-16,2023-11,Cancelled,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,1,6750.67,6750.67
+609,297,2023-11-16,2023-11,Cancelled,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,1,Ananya,Rao,Management,Sales Manager,9,USB-C Hub,Accessory,2,920.01,1840.02
+610,297,2023-11-16,2023-11,Cancelled,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,1,Ananya,Rao,Management,Sales Manager,16,Studio Microphone,Audio,1,3630.04,3630.04
+611,297,2023-11-16,2023-11,Cancelled,111,Sapna,Desai,Nagpur,Maharashtra,2023-10-01,1,Ananya,Rao,Management,Sales Manager,8,Noise Cancelling Headphones,Audio,3,5007.49,15022.47
+612,298,2023-11-16,2023-11,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,1,3458.5,3458.5
+613,298,2023-11-16,2023-11,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,487.67,975.34
+614,299,2023-11-16,2023-11,Delivered,24,Sunil,Chopra,Surat,Gujarat,2023-02-11,1,Ananya,Rao,Management,Sales Manager,4,Mechanical Keyboard,Accessory,1,1263.95,1263.95
+615,300,2023-11-16,2023-11,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1836.12,1836.12
+616,300,2023-11-16,2023-11,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,508.58,508.58
+617,301,2023-11-16,2023-11,Pending,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,3,96483.82,289451.46
+618,301,2023-11-16,2023-11,Pending,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,900.84,1801.68
+619,301,2023-11-16,2023-11,Pending,116,Sheetal,Khanna,Indore,Madhya Pradesh,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12909.67,12909.67
+620,302,2023-11-16,2023-11,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,9,USB-C Hub,Accessory,1,901.99,901.99
+621,302,2023-11-16,2023-11,Delivered,31,Ritu,Reddy,Pune,Maharashtra,2023-02-23,1,Ananya,Rao,Management,Sales Manager,16,Studio Microphone,Audio,1,3423.32,3423.32
+622,303,2023-11-16,2023-11,Shipped,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5006.47,5006.47
+623,304,2023-11-17,2023-11,Delivered,39,Prakash,Desai,Mumbai,Maharashtra,2023-03-12,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6513.73,6513.73
+624,305,2023-11-17,2023-11,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8951.57,17903.14
+625,306,2023-11-18,2023-11,Delivered,45,Raghav,Malhotra,Bengaluru,Karnataka,2023-03-28,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,1,96111.89,96111.89
+626,307,2023-11-18,2023-11,Cancelled,120,Satish,Chopra,Chennai,Tamil Nadu,2023-10-11,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,1,3504.28,3504.28
+627,308,2023-11-18,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,490.36,490.36
+628,308,2023-11-18,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,934.39,934.39
+629,309,2023-11-18,2023-11,Pending,9,Hitesh,Kumar,Chennai,Tamil Nadu,2023-01-10,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,2,7228.5,14457.0
+630,310,2023-11-19,2023-11,Delivered,87,Sameer,Menon,Jaipur,Rajasthan,2023-08-04,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12199.92,12199.92
+631,311,2023-11-19,2023-11,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,928.3,928.3
+632,312,2023-11-19,2023-11,Cancelled,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1533.41,1533.41
+633,312,2023-11-19,2023-11,Cancelled,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12177.39,12177.39
+634,313,2023-11-19,2023-11,Delivered,43,Anand,Rao,Kochi,Kerala,2023-03-22,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,915.35,915.35
+635,314,2023-11-19,2023-11,Delivered,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,99728.92,99728.92
+636,314,2023-11-19,2023-11,Delivered,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,930.78,930.78
+637,314,2023-11-19,2023-11,Delivered,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5041.52,10083.04
+638,315,2023-11-19,2023-11,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,486.72,486.72
+639,315,2023-11-19,2023-11,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,44893.47,44893.47
+640,316,2023-11-19,2023-11,Shipped,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,1,1595.17,1595.17
+641,316,2023-11-19,2023-11,Shipped,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,2,813.99,1627.98
+642,316,2023-11-19,2023-11,Shipped,119,Sandeep,Saxena,Lucknow,Uttar Pradesh,2023-10-10,1,Ananya,Rao,Management,Sales Manager,8,Noise Cancelling Headphones,Audio,1,5022.35,5022.35
+643,317,2023-11-20,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,2,1322.15,2644.3
+644,317,2023-11-20,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1300.7,1300.7
+645,317,2023-11-20,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,66733.57,66733.57
+646,317,2023-11-20,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,1,98969.46,98969.46
+647,318,2023-11-20,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6586.04,6586.04
+648,318,2023-11-20,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,497.93,995.86
+649,318,2023-11-20,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1302.19,1302.19
+650,319,2023-11-20,2023-11,Shipped,109,Anamika,Nair,Chandigarh,Chandigarh,2023-09-25,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8908.07,8908.07
+651,319,2023-11-20,2023-11,Shipped,109,Anamika,Nair,Chandigarh,Chandigarh,2023-09-25,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1859.4,1859.4
+652,320,2023-11-21,2023-11,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,1,45083.69,45083.69
+653,320,2023-11-21,2023-11,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,1,Ananya,Rao,Management,Sales Manager,15,34-inch Ultrawide Monitor,Monitor,2,25946.39,51892.78
+654,320,2023-11-21,2023-11,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,1,47136.0,47136.0
+655,320,2023-11-21,2023-11,Delivered,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,1,911.25,911.25
+656,321,2023-11-21,2023-11,Cancelled,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,497.1,994.2
+657,321,2023-11-21,2023-11,Cancelled,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,516.31,1548.93
+658,321,2023-11-21,2023-11,Cancelled,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,493.76,987.52
+659,321,2023-11-21,2023-11,Cancelled,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8825.14,8825.14
+660,322,2023-11-21,2023-11,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,491.45,491.45
+661,322,2023-11-21,2023-11,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,899.22,899.22
+662,322,2023-11-21,2023-11,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1619.77,1619.77
+663,322,2023-11-21,2023-11,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1314.38,1314.38
+664,323,2023-11-21,2023-11,Delivered,55,Seema,Sharma,Bengaluru,Karnataka,2023-04-28,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5187.46,10374.92
+665,324,2023-11-21,2023-11,Pending,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,784.95,784.95
+666,324,2023-11-21,2023-11,Pending,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1571.96,1571.96
+667,325,2023-11-22,2023-11,Shipped,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,45193.47,45193.47
+668,326,2023-11-22,2023-11,Delivered,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,494.85,494.85
+669,326,2023-11-22,2023-11,Delivered,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,895.16,895.16
+670,327,2023-11-22,2023-11,Delivered,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1268.01,1268.01
+671,327,2023-11-22,2023-11,Delivered,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,2,7040.26,14080.52
+672,328,2023-11-23,2023-11,Delivered,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,67277.13,134554.26
+673,329,2023-11-23,2023-11,Cancelled,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,2,890.14,1780.28
+674,329,2023-11-23,2023-11,Cancelled,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,906.21,906.21
+675,330,2023-11-23,2023-11,Pending,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,2,828.42,1656.84
+676,330,2023-11-23,2023-11,Pending,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1270.77,1270.77
+677,330,2023-11-23,2023-11,Pending,73,Vandana,Khanna,Delhi,Delhi,2023-06-25,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,46531.95,46531.95
+678,331,2023-11-23,2023-11,Delivered,120,Satish,Chopra,Chennai,Tamil Nadu,2023-10-11,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,3,1813.85,5441.55
+679,332,2023-11-23,2023-11,Cancelled,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,509.18,509.18
+680,332,2023-11-23,2023-11,Cancelled,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,500.46,500.46
+681,332,2023-11-23,2023-11,Cancelled,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,1,Laptop Pro 15,Laptop,3,66435.81,199307.43
+682,333,2023-11-23,2023-11,Delivered,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,1,97986.44,97986.44
+683,333,2023-11-23,2023-11,Delivered,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,2,100651.68,201303.36
+684,333,2023-11-23,2023-11,Delivered,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24598.11,24598.11
+685,334,2023-11-24,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,4,Rohan,Mehta,Sales,Sales Executive,16,Studio Microphone,Audio,1,3561.25,3561.25
+686,334,2023-11-24,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,905.97,905.97
+687,335,2023-11-24,2023-11,Delivered,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,2,47130.54,94261.08
+688,336,2023-11-24,2023-11,Pending,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1898.12,1898.12
+689,336,2023-11-24,2023-11,Pending,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8839.92,8839.92
+690,336,2023-11-24,2023-11,Pending,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45452.35,45452.35
+691,337,2023-11-24,2023-11,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,500.37,1501.11
+692,338,2023-11-24,2023-11,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,4875.92,4875.92
+693,338,2023-11-24,2023-11,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,2,914.63,1829.26
+694,339,2023-11-24,2023-11,Delivered,32,Sameer,Mukherjee,Pune,Maharashtra,2023-02-25,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,3,916.57,2749.71
+695,339,2023-11-24,2023-11,Delivered,32,Sameer,Mukherjee,Pune,Maharashtra,2023-02-25,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,913.71,913.71
+696,339,2023-11-24,2023-11,Delivered,32,Sameer,Mukherjee,Pune,Maharashtra,2023-02-25,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6892.22,6892.22
+697,340,2023-11-24,2023-11,Delivered,51,Richa,Pillay,Chandigarh,Chandigarh,2023-04-22,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,68226.16,136452.32
+698,341,2023-11-25,2023-11,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8644.82,8644.82
+699,342,2023-11-25,2023-11,Shipped,98,Prakash,Saxena,Bengaluru,Karnataka,2023-09-03,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,2,1343.3,2686.6
+700,343,2023-11-25,2023-11,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1469.49,1469.49
+701,343,2023-11-25,2023-11,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1564.71,1564.71
+702,343,2023-11-25,2023-11,Delivered,72,Shalini,Bhatia,Delhi,Delhi,2023-06-22,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1576.87,1576.87
+703,344,2023-11-26,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5139.04,5139.04
+704,344,2023-11-26,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8611.57,17223.14
+705,344,2023-11-26,2023-11,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,882.38,882.38
+706,345,2023-11-26,2023-11,Pending,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,68601.25,68601.25
+707,345,2023-11-26,2023-11,Pending,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,934.69,934.69
+708,345,2023-11-26,2023-11,Pending,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,515.86,1031.72
+709,346,2023-11-26,2023-11,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8814.99,8814.99
+710,347,2023-11-26,2023-11,Delivered,77,Deepak,Khanna,Bengaluru,Karnataka,2023-07-09,2,Vikram,Shah,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,45914.03,137742.09
+711,348,2023-11-26,2023-11,Delivered,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,803.51,803.51
+712,349,2023-11-26,2023-11,Pending,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,827.55,827.55
+713,349,2023-11-26,2023-11,Pending,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,9,Meera,Joshi,Sales,Senior Sales Executive,13,Gaming Laptop 16,Laptop,3,99328.52,297985.56
+714,350,2023-11-26,2023-11,Pending,109,Anamika,Nair,Chandigarh,Chandigarh,2023-09-25,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6370.84,6370.84
+715,350,2023-11-26,2023-11,Pending,109,Anamika,Nair,Chandigarh,Chandigarh,2023-09-25,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,3,924.72,2774.16
+716,351,2023-11-26,2023-11,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,929.23,929.23
+717,351,2023-11-26,2023-11,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,4,Rohan,Mehta,Sales,Sales Executive,2,Laptop Air 13,Laptop,2,45214.85,90429.7
+718,352,2023-11-27,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,2,1584.35,3168.7
+719,352,2023-11-27,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,3,500.73,1502.19
+720,352,2023-11-27,2023-11,Delivered,127,Nidhi,Rao,Kolkata,West Bengal,2023-10-25,1,Ananya,Rao,Management,Sales Manager,14,Portable SSD 2TB,Storage,1,12838.61,12838.61
+721,353,2023-11-27,2023-11,Delivered,36,Veena,Chatterjee,Pune,Maharashtra,2023-03-05,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,3,890.45,2671.35
+722,353,2023-11-27,2023-11,Delivered,36,Veena,Chatterjee,Pune,Maharashtra,2023-03-05,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,518.32,518.32
+723,354,2023-11-27,2023-11,Delivered,66,Deepak,Pillay,Chennai,Tamil Nadu,2023-05-27,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,3,800.69,2402.07
+724,354,2023-11-27,2023-11,Delivered,66,Deepak,Pillay,Chennai,Tamil Nadu,2023-05-27,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,807.85,807.85
+725,355,2023-11-27,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,1,6702.08,6702.08
+726,355,2023-11-27,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,499.6,499.6
+727,355,2023-11-27,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,1,Ananya,Rao,Management,Sales Manager,12,Laptop Stand,Accessory,1,798.88,798.88
+728,355,2023-11-27,2023-11,Delivered,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,1,Ananya,Rao,Management,Sales Manager,8,Noise Cancelling Headphones,Audio,1,5060.87,5060.87
+729,356,2023-11-27,2023-11,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,47270.56,47270.56
+730,357,2023-11-27,2023-11,Delivered,101,Komal,Kapoor,Pune,Maharashtra,2023-09-11,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,911.46,911.46
+731,358,2023-11-27,2023-11,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,510.48,510.48
+732,358,2023-11-27,2023-11,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,2,511.66,1023.32
+733,358,2023-11-27,2023-11,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,515.46,515.46
+734,359,2023-11-27,2023-11,Pending,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,908.85,908.85
+735,359,2023-11-27,2023-11,Pending,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,4,Rohan,Mehta,Sales,Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,24328.63,24328.63
+736,359,2023-11-27,2023-11,Pending,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,4,Rohan,Mehta,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6561.2,13122.4
+737,359,2023-11-27,2023-11,Pending,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8729.87,8729.87
+738,360,2023-11-27,2023-11,Delivered,130,Simran,Rao,Bengaluru,Karnataka,2023-11-03,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1912.66,1912.66
+739,361,2023-11-28,2023-11,Shipped,122,Manoj,Desai,Kolkata,West Bengal,2023-10-14,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1648.94,1648.94
+740,362,2023-11-28,2023-11,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,920.81,920.81
+741,362,2023-11-28,2023-11,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,886.08,886.08
+742,362,2023-11-28,2023-11,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1633.1,3266.2
+743,363,2023-11-28,2023-11,Pending,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,2,1845.07,3690.14
+744,363,2023-11-28,2023-11,Pending,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1850.26,1850.26
+745,364,2023-11-28,2023-11,Pending,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,3,8563.37,25690.11
+746,365,2023-12-02,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,493.04,493.04
+747,365,2023-12-02,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5082.8,5082.8
+748,365,2023-12-02,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1846.67,1846.67
+749,365,2023-12-02,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,500.26,1000.52
+750,366,2023-12-02,2023-12,Delivered,124,Satish,Singh,Lucknow,Uttar Pradesh,2023-10-21,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6399.08,6399.08
+751,367,2023-12-02,2023-12,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,16,Studio Microphone,Audio,1,3471.95,3471.95
+752,367,2023-12-02,2023-12,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1295.22,1295.22
+753,367,2023-12-02,2023-12,Delivered,95,Tarun,Kumar,Ahmedabad,Gujarat,2023-08-18,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1523.54,1523.54
+754,368,2023-12-03,2023-12,Delivered,144,Veena,Sharma,Bengaluru,Karnataka,2023-12-03,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,1,1495.53,1495.53
+755,369,2023-12-03,2023-12,Delivered,129,Vinay,Rao,Pune,Maharashtra,2023-11-02,2,Vikram,Shah,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8674.45,8674.45
+756,369,2023-12-03,2023-12,Delivered,129,Vinay,Rao,Pune,Maharashtra,2023-11-02,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,3,910.81,2732.43
+757,370,2023-12-03,2023-12,Delivered,74,Bhavna,Patel,Hyderabad,Telangana,2023-06-26,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5031.23,10062.46
+758,371,2023-12-03,2023-12,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,2,1515.53,3031.06
+759,371,2023-12-03,2023-12,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5112.34,10224.68
+760,371,2023-12-03,2023-12,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,3,5153.27,15459.81
+761,372,2023-12-04,2023-12,Cancelled,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6433.79,6433.79
+762,372,2023-12-04,2023-12,Cancelled,86,Anju,Trivedi,Lucknow,Uttar Pradesh,2023-07-21,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1319.53,1319.53
+763,373,2023-12-04,2023-12,Delivered,140,Preeti,Verma,Bengaluru,Karnataka,2023-11-26,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,3,807.23,2421.69
+764,374,2023-12-04,2023-12,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,8795.47,8795.47
+765,374,2023-12-04,2023-12,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,64252.43,64252.43
+766,374,2023-12-04,2023-12,Delivered,107,Rahul,Mukherjee,Ahmedabad,Gujarat,2023-09-21,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,2,896.75,1793.5
+767,375,2023-12-04,2023-12,Delivered,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,515.16,515.16
+768,375,2023-12-04,2023-12,Delivered,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1484.25,2968.5
+769,376,2023-12-04,2023-12,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,3,46532.83,139598.49
+770,376,2023-12-04,2023-12,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12972.51,12972.51
+771,376,2023-12-04,2023-12,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7254.9,7254.9
+772,376,2023-12-04,2023-12,Shipped,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1890.0,1890.0
+773,377,2023-12-06,2023-12,Delivered,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8542.54,17085.08
+774,377,2023-12-06,2023-12,Delivered,123,Poonam,Desai,Mumbai,Maharashtra,2023-10-20,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7051.22,7051.22
+775,378,2023-12-06,2023-12,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,907.77,907.77
+776,378,2023-12-06,2023-12,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1661.06,1661.06
+777,378,2023-12-06,2023-12,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,934.27,934.27
+778,378,2023-12-06,2023-12,Delivered,10,Ritu,Khanna,Chandigarh,Chandigarh,2023-01-12,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,1,3515.0,3515.0
+779,379,2023-12-06,2023-12,Shipped,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,2,Vikram,Shah,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,916.12,916.12
+780,380,2023-12-06,2023-12,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,2,1339.08,2678.16
+781,380,2023-12-06,2023-12,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6844.36,6844.36
+782,380,2023-12-06,2023-12,Delivered,80,Pankaj,Trivedi,Mumbai,Maharashtra,2023-07-12,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,496.35,496.35
+783,381,2023-12-07,2023-12,Delivered,97,Ashok,Gupta,Bengaluru,Karnataka,2023-08-25,4,Rohan,Mehta,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,68375.51,136751.02
+784,382,2023-12-07,2023-12,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,932.32,932.32
+785,383,2023-12-07,2023-12,Delivered,20,Anju,Nair,Indore,Madhya Pradesh,2023-02-05,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64130.02,64130.02
+786,384,2023-12-07,2023-12,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6505.83,6505.83
+787,385,2023-12-08,2023-12,Cancelled,129,Vinay,Rao,Pune,Maharashtra,2023-11-02,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1280.62,1280.62
+788,385,2023-12-08,2023-12,Cancelled,129,Vinay,Rao,Pune,Maharashtra,2023-11-02,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,487.12,487.12
+789,386,2023-12-08,2023-12,Pending,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8746.79,8746.79
+790,386,2023-12-08,2023-12,Pending,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,895.49,895.49
+791,387,2023-12-09,2023-12,Delivered,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1562.15,3124.3
+792,388,2023-12-09,2023-12,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,509.07,509.07
+793,388,2023-12-09,2023-12,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,2,1650.38,3300.76
+794,388,2023-12-09,2023-12,Delivered,96,Anju,Menon,Hyderabad,Telangana,2023-08-19,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1895.79,1895.79
+795,389,2023-12-09,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6514.37,6514.37
+796,389,2023-12-09,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,67057.64,67057.64
+797,390,2023-12-10,2023-12,Delivered,105,Ajay,Agarwal,Bengaluru,Karnataka,2023-09-18,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,508.46,508.46
+798,391,2023-12-10,2023-12,Pending,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,1,6877.35,6877.35
+799,391,2023-12-10,2023-12,Pending,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1918.0,1918.0
+800,391,2023-12-10,2023-12,Pending,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8626.5,8626.5
+801,392,2023-12-10,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,1,3614.14,3614.14
+802,393,2023-12-10,2023-12,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,2,6618.64,13237.28
+803,393,2023-12-10,2023-12,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,816.72,816.72
+804,394,2023-12-10,2023-12,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,1,9096.93,9096.93
+805,394,2023-12-10,2023-12,Delivered,93,Alok,Verma,Chandigarh,Chandigarh,2023-08-16,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,881.55,1763.1
+806,395,2023-12-11,2023-12,Shipped,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,2,775.96,1551.92
+807,395,2023-12-11,2023-12,Shipped,136,Ila,Bhatt,Lucknow,Uttar Pradesh,2023-11-17,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1580.38,1580.38
+808,396,2023-12-11,2023-12,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,791.48,791.48
+809,396,2023-12-11,2023-12,Delivered,47,Shruti,Bhatia,Kochi,Kerala,2023-04-09,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8775.95,17551.9
+810,397,2023-12-11,2023-12,Delivered,100,Meenal,Patel,Bengaluru,Karnataka,2023-09-09,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,2,515.11,1030.22
+811,398,2023-12-11,2023-12,Delivered,140,Preeti,Verma,Bengaluru,Karnataka,2023-11-26,4,Rohan,Mehta,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,3,98376.09,295128.27
+812,398,2023-12-11,2023-12,Delivered,140,Preeti,Verma,Bengaluru,Karnataka,2023-11-26,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,801.82,801.82
+813,399,2023-12-12,2023-12,Delivered,117,Nisha,Shah,Nagpur,Maharashtra,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,1,1489.85,1489.85
+814,399,2023-12-12,2023-12,Delivered,117,Nisha,Shah,Nagpur,Maharashtra,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,2,518.74,1037.48
+815,399,2023-12-12,2023-12,Delivered,117,Nisha,Shah,Nagpur,Maharashtra,2023-10-08,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,804.22,804.22
+816,400,2023-12-12,2023-12,Pending,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,488.74,488.74
+817,401,2023-12-12,2023-12,Pending,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,485.55,485.55
+818,401,2023-12-12,2023-12,Pending,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,3,67987.61,203962.83
+819,402,2023-12-13,2023-12,Delivered,71,Naresh,Singh,Delhi,Delhi,2023-06-20,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,519.59,519.59
+820,402,2023-12-13,2023-12,Delivered,71,Naresh,Singh,Delhi,Delhi,2023-06-20,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,920.75,920.75
+821,403,2023-12-13,2023-12,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,912.32,1824.64
+822,404,2023-12-13,2023-12,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5169.31,5169.31
+823,404,2023-12-13,2023-12,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,501.34,1002.68
+824,404,2023-12-13,2023-12,Delivered,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,2,68338.01,136676.02
+825,405,2023-12-13,2023-12,Pending,67,Shalini,Joshi,Kochi,Kerala,2023-06-05,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1856.81,1856.81
+826,406,2023-12-13,2023-12,Cancelled,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,1,933.08,933.08
+827,407,2023-12-13,2023-12,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,1,1539.18,1539.18
+828,407,2023-12-13,2023-12,Delivered,6,Isha,Trivedi,Nagpur,Maharashtra,2023-01-09,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,490.82,490.82
+829,408,2023-12-13,2023-12,Delivered,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1823.93,1823.93
+830,408,2023-12-13,2023-12,Delivered,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,889.72,889.72
+831,409,2023-12-13,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8734.06,8734.06
+832,410,2023-12-13,2023-12,Delivered,124,Satish,Singh,Lucknow,Uttar Pradesh,2023-10-21,1,Ananya,Rao,Management,Sales Manager,6,24-inch Monitor,Monitor,3,6480.1,19440.3
+833,410,2023-12-13,2023-12,Delivered,124,Satish,Singh,Lucknow,Uttar Pradesh,2023-10-21,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,1,64916.35,64916.35
+834,411,2023-12-14,2023-12,Shipped,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,2,Vikram,Shah,Sales,Sales Executive,13,Gaming Laptop 16,Laptop,1,97097.77,97097.77
+835,411,2023-12-14,2023-12,Shipped,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1520.55,3041.1
+836,412,2023-12-14,2023-12,Delivered,85,Nikhil,Singh,Pune,Maharashtra,2023-07-18,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,813.49,813.49
+837,413,2023-12-14,2023-12,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,2,44951.82,89903.64
+838,414,2023-12-14,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,4,Rohan,Mehta,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12787.44,12787.44
+839,414,2023-12-14,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,4,Rohan,Mehta,Sales,Sales Executive,12,Laptop Stand,Accessory,1,800.27,800.27
+840,415,2023-12-14,2023-12,Pending,89,Tarun,Nair,Hyderabad,Telangana,2023-08-08,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7235.06,7235.06
+841,416,2023-12-14,2023-12,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,918.81,918.81
+842,416,2023-12-14,2023-12,Delivered,23,Hitesh,Bhatt,Bengaluru,Karnataka,2023-02-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,502.24,502.24
+843,417,2023-12-15,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,2,1566.52,3133.04
+844,417,2023-12-15,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12685.02,12685.02
+845,418,2023-12-15,2023-12,Delivered,51,Richa,Pillay,Chandigarh,Chandigarh,2023-04-22,9,Meera,Joshi,Sales,Senior Sales Executive,2,Laptop Air 13,Laptop,1,45851.89,45851.89
+846,418,2023-12-15,2023-12,Delivered,51,Richa,Pillay,Chandigarh,Chandigarh,2023-04-22,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,894.3,894.3
+847,418,2023-12-15,2023-12,Delivered,51,Richa,Pillay,Chandigarh,Chandigarh,2023-04-22,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,2,1830.85,3661.7
+848,418,2023-12-15,2023-12,Delivered,51,Richa,Pillay,Chandigarh,Chandigarh,2023-04-22,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,783.34,783.34
+849,419,2023-12-16,2023-12,Delivered,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,2,1632.09,3264.18
+850,419,2023-12-16,2023-12,Delivered,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,3,518.84,1556.52
+851,419,2023-12-16,2023-12,Delivered,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,1,Ananya,Rao,Management,Sales Manager,18,Laptop Backpack,Accessory,2,1591.97,3183.94
+852,420,2023-12-16,2023-12,Delivered,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,3,Priya,Nair,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,4921.39,9842.78
+853,420,2023-12-16,2023-12,Delivered,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,493.73,493.73
+854,420,2023-12-16,2023-12,Delivered,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,783.75,783.75
+855,421,2023-12-16,2023-12,Delivered,141,Nitin,Saxena,Surat,Gujarat,2023-11-26,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1334.69,1334.69
+856,421,2023-12-16,2023-12,Delivered,141,Nitin,Saxena,Surat,Gujarat,2023-11-26,4,Rohan,Mehta,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8698.38,17396.76
+857,422,2023-12-16,2023-12,Delivered,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,1,3596.82,3596.82
+858,422,2023-12-16,2023-12,Delivered,126,Sunita,Chatterjee,Chandigarh,Chandigarh,2023-10-25,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,2,8507.32,17014.64
+859,423,2023-12-17,2023-12,Delivered,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,890.82,890.82
+860,423,2023-12-17,2023-12,Delivered,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,5198.58,5198.58
+861,423,2023-12-17,2023-12,Delivered,49,Yogesh,Joshi,Nagpur,Maharashtra,2023-04-15,9,Meera,Joshi,Sales,Senior Sales Executive,14,Portable SSD 2TB,Storage,1,12254.04,12254.04
+862,424,2023-12-17,2023-12,Shipped,71,Naresh,Singh,Delhi,Delhi,2023-06-20,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1829.56,1829.56
+863,425,2023-12-17,2023-12,Delivered,138,Pooja,Singh,Ahmedabad,Gujarat,2023-11-19,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,778.0,778.0
+864,426,2023-12-17,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,821.58,821.58
+865,427,2023-12-17,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,3,6923.74,20771.22
+866,427,2023-12-17,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,1,5139.36,5139.36
+867,428,2023-12-18,2023-12,Delivered,38,Vinay,Chopra,Jaipur,Rajasthan,2023-03-09,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,512.58,512.58
+868,429,2023-12-18,2023-12,Delivered,128,Anju,Bhatia,Surat,Gujarat,2023-10-28,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1552.85,1552.85
+869,430,2023-12-18,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,2,Vikram,Shah,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64096.3,64096.3
+870,430,2023-12-18,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,2,Vikram,Shah,Sales,Sales Executive,8,Noise Cancelling Headphones,Audio,2,5036.5,10073.0
+871,431,2023-12-18,2023-12,Cancelled,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1850.8,1850.8
+872,431,2023-12-18,2023-12,Cancelled,34,Poonam,Gupta,Kolkata,West Bengal,2023-03-03,9,Meera,Joshi,Sales,Senior Sales Executive,16,Studio Microphone,Audio,3,3512.12,10536.36
+873,432,2023-12-18,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,2,1832.7,3665.4
+874,432,2023-12-18,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,9,Meera,Joshi,Sales,Senior Sales Executive,18,Laptop Backpack,Accessory,1,1654.33,1654.33
+875,433,2023-12-18,2023-12,Delivered,113,Tarun,Trivedi,Mumbai,Maharashtra,2023-10-05,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,515.38,515.38
+876,434,2023-12-18,2023-12,Delivered,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,508.74,1526.22
+877,435,2023-12-19,2023-12,Delivered,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6430.31,6430.31
+878,435,2023-12-19,2023-12,Delivered,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,9,Meera,Joshi,Sales,Senior Sales Executive,7,Bluetooth Headset,Audio,1,1874.08,1874.08
+879,435,2023-12-19,2023-12,Delivered,26,Nitin,Bhatt,Surat,Gujarat,2023-02-13,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,874.47,874.47
+880,436,2023-12-19,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,1,Ananya,Rao,Management,Sales Manager,8,Noise Cancelling Headphones,Audio,3,5056.04,15168.12
+881,437,2023-12-20,2023-12,Cancelled,139,Tanvi,Sharma,Jaipur,Rajasthan,2023-11-25,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,1,65057.13,65057.13
+882,438,2023-12-20,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7203.2,7203.2
+883,438,2023-12-20,2023-12,Delivered,14,Sameer,Saxena,Nagpur,Maharashtra,2023-01-24,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1329.89,1329.89
+884,439,2023-12-20,2023-12,Delivered,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,2,Vikram,Shah,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1830.62,1830.62
+885,440,2023-12-20,2023-12,Cancelled,145,Veena,Mehta,Kolkata,West Bengal,2023-12-04,9,Meera,Joshi,Sales,Senior Sales Executive,1,Laptop Pro 15,Laptop,2,68597.32,137194.64
+886,441,2023-12-20,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,491.66,983.32
+887,441,2023-12-20,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6590.14,6590.14
+888,441,2023-12-20,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67223.07,67223.07
+889,441,2023-12-20,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,3,Priya,Nair,Sales,Sales Executive,5,27-inch Monitor,Monitor,1,8566.71,8566.71
+890,442,2023-12-20,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1919.45,1919.45
+891,442,2023-12-20,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,4,Rohan,Mehta,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,1,892.23,892.23
+892,442,2023-12-20,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,2,931.5,1863.0
+893,443,2023-12-20,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,877.57,877.57
+894,443,2023-12-20,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,2,Vikram,Shah,Sales,Sales Executive,11,Webcam HD,Accessory,2,1485.63,2971.26
+895,444,2023-12-20,2023-12,Cancelled,108,Aarti,Gupta,Hyderabad,Telangana,2023-09-24,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7202.42,7202.42
+896,444,2023-12-20,2023-12,Cancelled,108,Aarti,Gupta,Hyderabad,Telangana,2023-09-24,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,502.4,1004.8
+897,444,2023-12-20,2023-12,Cancelled,108,Aarti,Gupta,Hyderabad,Telangana,2023-09-24,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,1,47590.49,47590.49
+898,444,2023-12-20,2023-12,Cancelled,108,Aarti,Gupta,Hyderabad,Telangana,2023-09-24,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,497.74,497.74
+899,445,2023-12-20,2023-12,Pending,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,1,Ananya,Rao,Management,Sales Manager,11,Webcam HD,Accessory,2,1496.47,2992.94
+900,445,2023-12-20,2023-12,Pending,142,Kiran,Chatterjee,Ahmedabad,Gujarat,2023-11-26,1,Ananya,Rao,Management,Sales Manager,17,Wireless Charger Pad,Accessory,1,891.01,891.01
+901,446,2023-12-20,2023-12,Delivered,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,4,Rohan,Mehta,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12746.24,12746.24
+902,446,2023-12-20,2023-12,Delivered,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,509.65,509.65
+903,447,2023-12-20,2023-12,Delivered,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6576.25,6576.25
+904,448,2023-12-21,2023-12,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,829.14,829.14
+905,448,2023-12-21,2023-12,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1287.7,1287.7
+906,448,2023-12-21,2023-12,Delivered,78,Anju,Kapoor,Chennai,Tamil Nadu,2023-07-10,2,Vikram,Shah,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,488.73,488.73
+907,449,2023-12-21,2023-12,Cancelled,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,1,1918.64,1918.64
+908,449,2023-12-21,2023-12,Cancelled,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,1,Ananya,Rao,Management,Sales Manager,5,27-inch Monitor,Monitor,1,8927.82,8927.82
+909,449,2023-12-21,2023-12,Cancelled,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,1,Ananya,Rao,Management,Sales Manager,7,Bluetooth Headset,Audio,3,1824.86,5474.58
+910,450,2023-12-22,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6910.31,6910.31
+911,450,2023-12-22,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,2,1495.24,2990.48
+912,450,2023-12-22,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,507.12,507.12
+913,450,2023-12-22,2023-12,Delivered,132,Lata,Joshi,Delhi,Delhi,2023-11-09,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,498.12,498.12
+914,451,2023-12-22,2023-12,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,3,Priya,Nair,Sales,Sales Executive,17,Wireless Charger Pad,Accessory,2,905.47,1810.94
+915,451,2023-12-22,2023-12,Delivered,131,Arvind,Patel,Pune,Maharashtra,2023-11-08,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,2,877.89,1755.78
+916,452,2023-12-22,2023-12,Delivered,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,904.17,904.17
+917,452,2023-12-22,2023-12,Delivered,135,Varun,Verma,Jaipur,Rajasthan,2023-11-14,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,901.27,901.27
+918,453,2023-12-22,2023-12,Shipped,62,Kiran,Agarwal,Indore,Madhya Pradesh,2023-05-18,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,2,3394.79,6789.58
+919,454,2023-12-22,2023-12,Pending,148,Komal,Kumar,Kochi,Kerala,2023-12-17,3,Priya,Nair,Sales,Sales Executive,2,Laptop Air 13,Laptop,2,47824.54,95649.08
+920,455,2023-12-23,2023-12,Pending,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,516.17,516.17
+921,455,2023-12-23,2023-12,Pending,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,4,Rohan,Mehta,Sales,Sales Executive,9,USB-C Hub,Accessory,1,882.5,882.5
+922,455,2023-12-23,2023-12,Pending,149,Shalini,Pillay,Pune,Maharashtra,2023-12-17,4,Rohan,Mehta,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,503.07,1509.21
+923,456,2023-12-23,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,786.63,786.63
+924,456,2023-12-23,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,8,Noise Cancelling Headphones,Audio,1,4858.38,4858.38
+925,456,2023-12-23,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,12,Laptop Stand,Accessory,1,812.82,812.82
+926,456,2023-12-23,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,1,6461.36,6461.36
+927,457,2023-12-24,2023-12,Delivered,13,Dinesh,Reddy,Kochi,Kerala,2023-01-20,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,2,7111.98,14223.96
+928,457,2023-12-24,2023-12,Delivered,13,Dinesh,Reddy,Kochi,Kerala,2023-01-20,4,Rohan,Mehta,Sales,Sales Executive,10,External SSD 1TB,Storage,2,7096.83,14193.66
+929,457,2023-12-24,2023-12,Delivered,13,Dinesh,Reddy,Kochi,Kerala,2023-01-20,4,Rohan,Mehta,Sales,Sales Executive,11,Webcam HD,Accessory,2,1521.85,3043.7
+930,458,2023-12-24,2023-12,Delivered,148,Komal,Kumar,Kochi,Kerala,2023-12-17,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,1,924.01,924.01
+931,459,2023-12-24,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,2,Vikram,Shah,Sales,Sales Executive,9,USB-C Hub,Accessory,1,876.97,876.97
+932,459,2023-12-24,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,2,Vikram,Shah,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1330.64,1330.64
+933,459,2023-12-24,2023-12,Delivered,150,Satish,Malhotra,Pune,Maharashtra,2023-12-18,2,Vikram,Shah,Sales,Sales Executive,12,Laptop Stand,Accessory,1,820.73,820.73
+934,460,2023-12-24,2023-12,Delivered,99,Divya,Mehta,Lucknow,Uttar Pradesh,2023-09-05,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7130.74,7130.74
+935,461,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,6,24-inch Monitor,Monitor,2,6737.7,13475.4
+936,461,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,4,Mechanical Keyboard,Accessory,1,1320.31,1320.31
+937,461,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,5,27-inch Monitor,Monitor,2,8933.17,17866.34
+938,461,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25176.17,25176.17
+939,462,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,4,Rohan,Mehta,Sales,Sales Executive,18,Laptop Backpack,Accessory,1,1570.58,1570.58
+940,462,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,4,Rohan,Mehta,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1286.95,1286.95
+941,462,2023-12-25,2023-12,Cancelled,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,2,1835.74,3671.48
+942,463,2023-12-25,2023-12,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,887.76,887.76
+943,463,2023-12-25,2023-12,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,2,507.6,1015.2
+944,463,2023-12-25,2023-12,Delivered,121,Suresh,Bhatia,Mumbai,Maharashtra,2023-10-14,3,Priya,Nair,Sales,Sales Executive,16,Studio Microphone,Audio,2,3448.06,6896.12
+945,464,2023-12-25,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,9,Meera,Joshi,Sales,Senior Sales Executive,9,USB-C Hub,Accessory,1,883.5,883.5
+946,464,2023-12-25,2023-12,Delivered,134,Sanjay,Shah,Chennai,Tamil Nadu,2023-11-12,9,Meera,Joshi,Sales,Senior Sales Executive,3,Wireless Mouse,Accessory,1,509.77,509.77
+947,465,2023-12-25,2023-12,Cancelled,112,Naresh,Desai,Bengaluru,Karnataka,2023-10-03,9,Meera,Joshi,Sales,Senior Sales Executive,10,External SSD 1TB,Storage,1,6817.3,6817.3
+948,466,2023-12-25,2023-12,Delivered,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,2,1495.35,2990.7
+949,466,2023-12-25,2023-12,Delivered,147,Poonam,Pillay,Surat,Gujarat,2023-12-14,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,511.32,511.32
+950,467,2023-12-25,2023-12,Delivered,137,Rakesh,Bose,Indore,Madhya Pradesh,2023-11-19,2,Vikram,Shah,Sales,Sales Executive,6,24-inch Monitor,Monitor,3,6477.28,19431.84
+951,468,2023-12-26,2023-12,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,17,Wireless Charger Pad,Accessory,2,930.39,1860.78
+952,468,2023-12-26,2023-12,Delivered,114,Shalini,Khanna,Delhi,Delhi,2023-10-05,9,Meera,Joshi,Sales,Senior Sales Executive,15,34-inch Ultrawide Monitor,Monitor,1,25637.94,25637.94
+953,469,2023-12-26,2023-12,Delivered,11,Sarita,Saxena,Bengaluru,Karnataka,2023-01-13,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1864.88,1864.88
+954,469,2023-12-26,2023-12,Delivered,11,Sarita,Saxena,Bengaluru,Karnataka,2023-01-13,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6343.04,6343.04
+955,470,2023-12-26,2023-12,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,2,Vikram,Shah,Sales,Sales Executive,18,Laptop Backpack,Accessory,2,1579.9,3159.8
+956,470,2023-12-26,2023-12,Delivered,115,Harish,Joshi,Lucknow,Uttar Pradesh,2023-10-06,2,Vikram,Shah,Sales,Sales Executive,10,External SSD 1TB,Storage,2,7236.91,14473.82
+957,471,2023-12-26,2023-12,Delivered,144,Veena,Sharma,Bengaluru,Karnataka,2023-12-03,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,899.95,899.95
+958,472,2023-12-26,2023-12,Delivered,144,Veena,Sharma,Bengaluru,Karnataka,2023-12-03,3,Priya,Nair,Sales,Sales Executive,14,Portable SSD 2TB,Storage,1,12988.8,12988.8
+959,472,2023-12-26,2023-12,Delivered,144,Veena,Sharma,Bengaluru,Karnataka,2023-12-03,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,893.14,893.14
+960,472,2023-12-26,2023-12,Delivered,144,Veena,Sharma,Bengaluru,Karnataka,2023-12-03,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,3,505.66,1516.98
+961,473,2023-12-26,2023-12,Delivered,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,1,Ananya,Rao,Management,Sales Manager,16,Studio Microphone,Audio,1,3564.1,3564.1
+962,473,2023-12-26,2023-12,Delivered,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,500.02,500.02
+963,473,2023-12-26,2023-12,Delivered,44,Aarti,Rao,Chandigarh,Chandigarh,2023-03-26,1,Ananya,Rao,Management,Sales Manager,3,Wireless Mouse,Accessory,1,517.23,517.23
+964,474,2023-12-27,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,1,Ananya,Rao,Management,Sales Manager,1,Laptop Pro 15,Laptop,1,64111.1,64111.1
+965,474,2023-12-27,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,1,Ananya,Rao,Management,Sales Manager,2,Laptop Air 13,Laptop,1,45687.69,45687.69
+966,475,2023-12-27,2023-12,Pending,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,11,Webcam HD,Accessory,1,1483.04,1483.04
+967,475,2023-12-27,2023-12,Pending,102,Preeti,Chatterjee,Mumbai,Maharashtra,2023-09-11,3,Priya,Nair,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1831.1,1831.1
+968,476,2023-12-28,2023-12,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,3,Priya,Nair,Sales,Sales Executive,3,Wireless Mouse,Accessory,1,513.04,513.04
+969,476,2023-12-28,2023-12,Delivered,118,Hitesh,Pillay,Jaipur,Rajasthan,2023-10-09,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,67862.93,67862.93
+970,477,2023-12-28,2023-12,Delivered,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,3,Priya,Nair,Sales,Sales Executive,6,24-inch Monitor,Monitor,1,6671.12,6671.12
+971,477,2023-12-28,2023-12,Delivered,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,3,Priya,Nair,Sales,Sales Executive,9,USB-C Hub,Accessory,1,914.28,914.28
+972,477,2023-12-28,2023-12,Delivered,143,Rajesh,Agarwal,Kochi,Kerala,2023-11-27,3,Priya,Nair,Sales,Sales Executive,1,Laptop Pro 15,Laptop,1,64984.08,64984.08
+973,478,2023-12-28,2023-12,Delivered,130,Simran,Rao,Bengaluru,Karnataka,2023-11-03,9,Meera,Joshi,Sales,Senior Sales Executive,11,Webcam HD,Accessory,2,1516.34,3032.68
+974,479,2023-12-28,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,3,Priya,Nair,Sales,Sales Executive,4,Mechanical Keyboard,Accessory,1,1305.16,1305.16
+975,479,2023-12-28,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,3,Priya,Nair,Sales,Sales Executive,12,Laptop Stand,Accessory,1,820.13,820.13
+976,479,2023-12-28,2023-12,Delivered,146,Ramesh,Pillai,Jaipur,Rajasthan,2023-12-09,3,Priya,Nair,Sales,Sales Executive,10,External SSD 1TB,Storage,1,7124.61,7124.61
+977,480,2023-12-28,2023-12,Cancelled,125,Tarun,Gupta,Pune,Maharashtra,2023-10-24,4,Rohan,Mehta,Sales,Sales Executive,7,Bluetooth Headset,Audio,1,1803.46,1803.46
