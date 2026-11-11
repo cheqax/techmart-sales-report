@@ -72,7 +72,7 @@ with a comment above it explaining why a business would ask it.
 ## Tools used
 
 - **MySQL 8.4** — schema design, data generation, and all analysis queries (joins, subqueries, conditional aggregation, anti-joins, window-free running calculations)
-- **Tableau Public** — interactive dashboard built on this data ([link here once published])
+- **- **Tableau Public** — Interactive sales performance dashboard: [View Dashboard](https://public.tableau.com/views/TechMartElectronicsSalesPerformanceAnalysis/TechmartSalesPerformanceDashboard)
 - **Python** — used to generate the realistic synthetic dataset (`generate_dataset.py`), not part of the analysis itself
 
 ## About this project
