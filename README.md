@@ -83,4 +83,4 @@ data is synthetic. Feedback welcome — this is a learning project, not a
 finished product.
 
 **Author:** Chethan Ramesh Reddy
-**LinkedIn:** [add your profile link]
+**LinkedIn:** [[add your profile link](https://www.linkedin.com/in/chethan2607)]
